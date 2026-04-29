@@ -21,7 +21,7 @@ type SoundKey =
 // Per-sound configuration: file path, pool size, and playback volume (0..1).
 const SOUND_CONFIG: Record<SoundKey, { src: string; pool: number; volume: number }> = {
   primary:   { src: '/sounds/primary.mp3',   pool: 3, volume: 0.8 },
-  secondary: { src: '/sounds/secondary.mp3', pool: 3, volume: 0.7 },
+  secondary: { src: '/sounds/secondary.mp3', pool: 3, volume: 0.5 },
   danger:    { src: '/sounds/danger.mp3',    pool: 2, volume: 0.8 },
   flip:      { src: '/sounds/flip.mp3',      pool: 3, volume: 0.7 },
   eliminate: { src: '/sounds/eliminate.mp3', pool: 2, volume: 0.8 },

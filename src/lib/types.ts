@@ -12,9 +12,11 @@ export type Phase =
   | 'eliminationreveal'
   | 'mrwhiteguess'
   | 'result'
-  | 'leaderboard';
+  | 'leaderboard'
+  | 'onlinelobby'
+  | 'waitingroom';
 
-export type GameMode = 'quick' | 'tracked';
+export type GameMode = 'quick' | 'tracked' | 'online';
 
 export interface GamePlayer {
   id: string;

@@ -108,6 +108,17 @@ export function HomeScreen() {
             <span className="ml-2 text-xs opacity-70">· {selectedGroup.name}</span>
           )}
         </Button>
+        <Button
+          variant="ghost"
+          full
+          onClick={() => {
+            sfx.tap();
+            setPhase('onlinelobby');
+          }}
+        >
+          <OnlineWifiIcon />
+          <span className="ml-2">Play Online</span>
+        </Button>
         <div className="grid grid-cols-2 gap-3 pt-2">
           <Button variant="ghost" onClick={() => setPhase('groups')}>
             Groups {groupsCount > 0 && <span className="ml-1 opacity-60">({groupsCount})</span>}
@@ -165,6 +176,25 @@ function SpeakerOnIcon() {
       <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
       <path d="M15.54 8.46a5 5 0 0 1 0 7.07" />
       <path d="M19.07 4.93a10 10 0 0 1 0 14.14" />
+    </svg>
+  );
+}
+
+function OnlineWifiIcon() {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <circle cx="12" cy="12" r="10" />
+      <line x1="2" y1="12" x2="22" y2="12" />
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
     </svg>
   );
 }

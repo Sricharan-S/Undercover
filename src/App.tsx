@@ -12,9 +12,13 @@ import { MrWhiteGuessScreen } from './screens/MrWhiteGuessScreen';
 import { ResultScreen } from './screens/ResultScreen';
 import { LeaderboardScreen } from './screens/LeaderboardScreen';
 import { InstallPrompt } from './components/InstallPrompt';
+import { OnlineLobbyScreen } from './screens/OnlineLobbyScreen';
+import { WaitingRoomScreen } from './screens/WaitingRoomScreen';
+import { VoiceVideoOverlay } from './screens/VoiceVideoOverlay';
 
 export default function App() {
   const phase = useGameStore((s) => s.phase);
+  const mode = useGameStore((s) => s.mode);
 
   let screen: JSX.Element;
   switch (phase) {
@@ -54,14 +58,24 @@ export default function App() {
     case 'leaderboard':
       screen = <LeaderboardScreen />;
       break;
+    case 'onlinelobby':
+      screen = <OnlineLobbyScreen />;
+      break;
+    case 'waitingroom':
+      screen = <WaitingRoomScreen />;
+      break;
     default:
       screen = <HomeScreen />;
   }
+
+  const onlineGamePhases: typeof phase[] = ['pick', 'reveal', 'describe', 'vote', 'eliminationreveal', 'mrwhiteguess', 'result'];
+  const showVoiceOverlay = mode === 'online' && onlineGamePhases.includes(phase);
 
   return (
     <>
       {screen}
       {phase === 'home' && <InstallPrompt />}
+      {showVoiceOverlay && <VoiceVideoOverlay />}
     </>
   );
 }

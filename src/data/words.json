@@ -1,4108 +1,685 @@
 {
   "categories": {
     "food": [
-      [
-        "Pizza",
-        "Burger"
-      ],
-      [
-        "Coffee",
-        "Tea"
-      ],
-      [
-        "Pasta",
-        "Noodles"
-      ],
-      [
-        "Cake",
-        "Pie"
-      ],
-      [
-        "Ice Cream",
-        "Frozen Yogurt"
-      ],
-      [
-        "Bread",
-        "Bagel"
-      ],
-      [
-        "Sandwich",
-        "Wrap"
-      ],
-      [
-        "Salad",
-        "Coleslaw"
-      ],
-      [
-        "Soup",
-        "Stew"
-      ],
-      [
-        "Sushi",
-        "Rolls"
-      ],
-      [
-        "Taco",
-        "Burrito"
-      ],
-      [
-        "Pancake",
-        "Waffle"
-      ],
-      [
-        "Donut",
-        "Croissant"
-      ],
-      [
-        "Cookie",
-        "Brownie"
-      ],
-      [
-        "Chocolate",
-        "Candy"
-      ],
-      [
-        "Apple",
-        "Pear"
-      ],
-      [
-        "Banana",
-        "Mango"
-      ],
-      [
-        "Orange",
-        "Tangerine"
-      ],
-      [
-        "Strawberry",
-        "Raspberry"
-      ],
-      [
-        "Watermelon",
-        "Melon"
-      ],
-      [
-        "Grape",
-        "Cherry"
-      ],
-      [
-        "Pineapple",
-        "Coconut"
-      ],
-      [
-        "Lemon",
-        "Lime"
-      ],
-      [
-        "Carrot",
-        "Radish"
-      ],
-      [
-        "Potato",
-        "Sweet Potato"
-      ],
-      [
-        "Tomato",
-        "Pepper"
-      ],
-      [
-        "Onion",
-        "Garlic"
-      ],
-      [
-        "Cheese",
-        "Butter"
-      ],
-      [
-        "Milk",
-        "Yogurt"
-      ],
-      [
-        "Egg",
-        "Omelette"
-      ],
-      [
-        "Chicken",
-        "Turkey"
-      ],
-      [
-        "Beef",
-        "Pork"
-      ],
-      [
-        "Fish",
-        "Shrimp"
-      ],
-      [
-        "Rice",
-        "Quinoa"
-      ],
-      [
-        "Beans",
-        "Lentils"
-      ],
-      [
-        "Corn",
-        "Peas"
-      ],
-      [
-        "Spinach",
-        "Lettuce"
-      ],
-      [
-        "Broccoli",
-        "Cauliflower"
-      ],
-      [
-        "Mushroom",
-        "Truffle"
-      ],
-      [
-        "Honey",
-        "Syrup"
-      ],
-      [
-        "Jam",
-        "Marmalade"
-      ],
-      [
-        "Ketchup",
-        "Mustard"
-      ],
-      [
-        "Salt",
-        "Sugar"
-      ],
-      [
-        "Pepper",
-        "Chili"
-      ],
-      [
-        "Vinegar",
-        "Lemon Juice"
-      ],
-      [
-        "Olive Oil",
-        "Butter"
-      ],
-      [
-        "Curry",
-        "Stir Fry"
-      ],
-      [
-        "Steak",
-        "Roast"
-      ],
-      [
-        "Bacon",
-        "Sausage"
-      ],
-      [
-        "Ham",
-        "Salami"
-      ],
-      [
-        "Hot Dog",
-        "Corn Dog"
-      ],
-      [
-        "Fries",
-        "Chips"
-      ],
-      [
-        "Popcorn",
-        "Pretzel"
-      ],
-      [
-        "Nachos",
-        "Quesadilla"
-      ],
-      [
-        "Smoothie",
-        "Milkshake"
-      ],
-      [
-        "Juice",
-        "Soda"
-      ],
-      [
-        "Water",
-        "Sparkling Water"
-      ],
-      [
-        "Beer",
-        "Wine"
-      ],
-      [
-        "Whiskey",
-        "Vodka"
-      ],
-      [
-        "Champagne",
-        "Cider"
-      ],
-      [
-        "Cocktail",
-        "Mocktail"
-      ],
-      [
-        "Espresso",
-        "Latte"
-      ],
-      [
-        "Cappuccino",
-        "Macchiato"
-      ],
-      [
-        "Hot Chocolate",
-        "Mocha"
-      ],
-      [
-        "Cereal",
-        "Granola"
-      ],
-      [
-        "Oatmeal",
-        "Porridge"
-      ],
-      [
-        "Toast",
-        "Crackers"
-      ],
-      [
-        "Muffin",
-        "Cupcake"
-      ],
-      [
-        "Pudding",
-        "Custard"
-      ],
-      [
-        "Pie",
-        "Tart"
-      ],
-      [
-        "Meatball",
-        "Kebab"
-      ],
-      [
-        "Lasagna",
-        "Ravioli"
-      ],
-      [
-        "Spaghetti",
-        "Macaroni"
-      ],
-      [
-        "Pretzel",
-        "Bagel"
-      ],
-      [
-        "Croissant",
-        "Brioche"
-      ],
-      [
-        "Cheesecake",
-        "Tiramisu"
-      ],
-      [
-        "Pudding",
-        "Jello"
-      ],
-      [
-        "Hummus",
-        "Guacamole"
-      ],
-      [
-        "Salsa",
-        "Pesto"
-      ],
-      [
-        "Mayo",
-        "Aioli"
-      ],
-      [
-        "Peanut Butter",
-        "Nutella"
-      ],
-      [
-        "Granola Bar",
-        "Energy Bar"
-      ],
-      [
-        "Milkshake",
-        "Sundae"
-      ],
-      [
-        "Iced Tea",
-        "Lemonade"
-      ],
-      [
-        "Slushie",
-        "Snow Cone"
-      ],
-      [
-        "Root Beer",
-        "Cola"
-      ],
-      [
-        "Tofu",
-        "Paneer"
-      ],
-      [
-        "Hummus",
-        "Baba Ganoush"
-      ],
-      [
-        "Dumpling",
-        "Wonton"
-      ],
-      [
-        "Ramen",
-        "Pho"
-      ],
-      [
-        "Fried Rice",
-        "Paella"
-      ],
-      [
-        "Falafel",
-        "Samosa"
-      ],
-      [
-        "Naan",
-        "Pita"
-      ],
-      [
-        "Biscuit",
-        "Scone"
-      ],
-      [
-        "Gelato",
-        "Sorbet"
-      ],
-      [
-        "Cupcake",
-        "Cake Pop"
-      ],
-      [
-        "Marshmallow",
-        "Gummy Bear"
-      ],
-      [
-        "Lollipop",
-        "Candy Cane"
-      ],
-      [
-        "Olive",
-        "Pickle"
-      ],
-      [
-        "Avocado",
-        "Cucumber"
-      ]
+      ["Samosa", "Kachori"],
+      ["Dosa", "Idli"],
+      ["Pani Puri", "Bhel Puri"],
+      ["Vada Pav", "Pav Bhaji"],
+      ["Chole Bhature", "Rajma Chawal"],
+      ["Biryani", "Pulao"],
+      ["Butter Chicken", "Palak Paneer"],
+      ["Paratha", "Puri"],
+      ["Poha", "Upma"],
+      ["Chai", "Coffee"],
+      ["Lassi", "Buttermilk"],
+      ["Gulab Jamun", "Rasgulla"],
+      ["Jalebi", "Imarti"],
+      ["Halwa", "Kheer"],
+      ["Ladoo", "Peda"],
+      ["Barfi", "Kalakand"],
+      ["Pakora", "Bhajiya"],
+      ["Chaat", "Tikki"],
+      ["Kebab", "Tikka"],
+      ["Naan", "Roti"],
+      ["Rice", "Roti"],
+      ["Dal", "Sambhar"],
+      ["Kadai Paneer", "Mutter Paneer"],
+      ["Aloo Sabzi", "Gobi Sabzi"],
+      ["Maggi", "Instant Noodles"],
+      ["Pizza", "Burger"],
+      ["Noodles", "Pasta"],
+      ["Sandwich", "Wrap"],
+      ["Ice Cream", "Kulfi"],
+      ["Cake", "Brownie"],
+      ["Chocolate", "Candy"],
+      ["Popcorn", "Chips"],
+      ["Biscuit", "Cookie"],
+      ["Mango", "Banana"],
+      ["Coconut", "Pineapple"],
+      ["Pomegranate", "Guava"],
+      ["Watermelon", "Muskmelon"],
+      ["Papaya", "Jackfruit"],
+      ["Apple", "Pear"],
+      ["Orange", "Lemon"],
+      ["Grapes", "Strawberry"],
+      ["Potato", "Sweet Potato"],
+      ["Tomato", "Onion"],
+      ["Carrot", "Radish"],
+      ["Spinach", "Methi"],
+      ["Brinjal", "Okra"],
+      ["Milk", "Curd"],
+      ["Paneer", "Cheese"],
+      ["Egg", "Omelette"],
+      ["Chicken", "Mutton"],
+      ["Fish", "Prawn"],
+      ["Pickle", "Chutney"],
+      ["Ketchup", "Mayo"],
+      ["Butter", "Ghee"],
+      ["Honey", "Jaggery"],
+      ["Nimbu Pani", "Coconut Water"],
+      ["Smoothie", "Milkshake"],
+      ["Juice", "Soda"],
+      ["Fried Rice", "Chowmein"],
+      ["Falooda", "Rose Milk"],
+      ["Thandai", "Sharbat"],
+      ["Cold Coffee", "Iced Tea"],
+      ["Fries", "Wedges"],
+      ["Hot Dog", "Corn Dog"],
+      ["Donut", "Cupcake"],
+      ["Waffle", "Pancake"],
+      ["Oatmeal", "Cereal"],
+      ["Toast", "Bread Roll"],
+      ["Jam", "Peanut Butter"],
+      ["Soup", "Stew"],
+      ["Sushi", "Dumpling"],
+      ["Ramen", "Pho"],
+      ["Taco", "Burrito"],
+      ["Nachos", "Popcorn"],
+      ["Gelato", "Sorbet"],
+      ["Pudding", "Custard"],
+      ["Cheesecake", "Mousse"],
+      ["Marshmallow", "Toffee"],
+      ["Lollipop", "Candy Bar"]
     ],
     "animals": [
-      [
-        "Dog",
-        "Cat"
-      ],
-      [
-        "Lion",
-        "Tiger"
-      ],
-      [
-        "Elephant",
-        "Hippo"
-      ],
-      [
-        "Cow",
-        "Buffalo"
-      ],
-      [
-        "Horse",
-        "Donkey"
-      ],
-      [
-        "Goat",
-        "Sheep"
-      ],
-      [
-        "Pig",
-        "Boar"
-      ],
-      [
-        "Chicken",
-        "Duck"
-      ],
-      [
-        "Eagle",
-        "Hawk"
-      ],
-      [
-        "Owl",
-        "Crow"
-      ],
-      [
-        "Sparrow",
-        "Robin"
-      ],
-      [
-        "Parrot",
-        "Cockatoo"
-      ],
-      [
-        "Peacock",
-        "Pheasant"
-      ],
-      [
-        "Penguin",
-        "Puffin"
-      ],
-      [
-        "Flamingo",
-        "Crane"
-      ],
-      [
-        "Swan",
-        "Goose"
-      ],
-      [
-        "Turkey",
-        "Pigeon"
-      ],
-      [
-        "Frog",
-        "Toad"
-      ],
-      [
-        "Snake",
-        "Lizard"
-      ],
-      [
-        "Turtle",
-        "Tortoise"
-      ],
-      [
-        "Crocodile",
-        "Alligator"
-      ],
-      [
-        "Shark",
-        "Dolphin"
-      ],
-      [
-        "Whale",
-        "Orca"
-      ],
-      [
-        "Octopus",
-        "Squid"
-      ],
-      [
-        "Crab",
-        "Lobster"
-      ],
-      [
-        "Jellyfish",
-        "Starfish"
-      ],
-      [
-        "Salmon",
-        "Trout"
-      ],
-      [
-        "Goldfish",
-        "Koi"
-      ],
-      [
-        "Bee",
-        "Wasp"
-      ],
-      [
-        "Butterfly",
-        "Moth"
-      ],
-      [
-        "Ant",
-        "Termite"
-      ],
-      [
-        "Spider",
-        "Scorpion"
-      ],
-      [
-        "Mosquito",
-        "Fly"
-      ],
-      [
-        "Ladybug",
-        "Beetle"
-      ],
-      [
-        "Grasshopper",
-        "Cricket"
-      ],
-      [
-        "Snail",
-        "Slug"
-      ],
-      [
-        "Bear",
-        "Panda"
-      ],
-      [
-        "Polar Bear",
-        "Grizzly"
-      ],
-      [
-        "Wolf",
-        "Fox"
-      ],
-      [
-        "Coyote",
-        "Jackal"
-      ],
-      [
-        "Rabbit",
-        "Hare"
-      ],
-      [
-        "Squirrel",
-        "Chipmunk"
-      ],
-      [
-        "Mouse",
-        "Rat"
-      ],
-      [
-        "Hamster",
-        "Guinea Pig"
-      ],
-      [
-        "Monkey",
-        "Ape"
-      ],
-      [
-        "Gorilla",
-        "Chimpanzee"
-      ],
-      [
-        "Kangaroo",
-        "Wallaby"
-      ],
-      [
-        "Koala",
-        "Sloth"
-      ],
-      [
-        "Camel",
-        "Llama"
-      ],
-      [
-        "Giraffe",
-        "Zebra"
-      ],
-      [
-        "Rhino",
-        "Hippo"
-      ],
-      [
-        "Deer",
-        "Moose"
-      ],
-      [
-        "Reindeer",
-        "Elk"
-      ],
-      [
-        "Cheetah",
-        "Leopard"
-      ],
-      [
-        "Jaguar",
-        "Panther"
-      ],
-      [
-        "Hyena",
-        "Wild Dog"
-      ],
-      [
-        "Otter",
-        "Beaver"
-      ],
-      [
-        "Raccoon",
-        "Skunk"
-      ],
-      [
-        "Hedgehog",
-        "Porcupine"
-      ],
-      [
-        "Bat",
-        "Bird"
-      ],
-      [
-        "Seal",
-        "Walrus"
-      ],
-      [
-        "Iguana",
-        "Chameleon"
-      ],
-      [
-        "Dragonfly",
-        "Firefly"
-      ],
-      [
-        "Pony",
-        "Foal"
-      ],
-      [
-        "Calf",
-        "Lamb"
-      ],
-      [
-        "Puppy",
-        "Kitten"
-      ],
-      [
-        "Puma",
-        "Lynx"
-      ],
-      [
-        "Bison",
-        "Yak"
-      ],
-      [
-        "Antelope",
-        "Gazelle"
-      ],
-      [
-        "Ostrich",
-        "Emu"
-      ],
-      [
-        "Kiwi",
-        "Dodo"
-      ],
-      [
-        "Pelican",
-        "Heron"
-      ],
-      [
-        "Seagull",
-        "Albatross"
-      ],
-      [
-        "Woodpecker",
-        "Toucan"
-      ],
-      [
-        "Hummingbird",
-        "Swallow"
-      ],
-      [
-        "Canary",
-        "Finch"
-      ],
-      [
-        "Rooster",
-        "Hen"
-      ],
-      [
-        "Peafowl",
-        "Turkey"
-      ],
-      [
-        "Meerkat",
-        "Mongoose"
-      ],
-      [
-        "Badger",
-        "Wolverine"
-      ],
-      [
-        "Platypus",
-        "Echidna"
-      ],
-      [
-        "Armadillo",
-        "Pangolin"
-      ],
-      [
-        "Okapi",
-        "Tapir"
-      ],
-      [
-        "Warthog",
-        "Wild Pig"
-      ],
-      [
-        "Mule",
-        "Donkey"
-      ],
-      [
-        "Alpaca",
-        "Llama"
-      ],
-      [
-        "Ferret",
-        "Weasel"
-      ],
-      [
-        "Mole",
-        "Vole"
-      ],
-      [
-        "Gecko",
-        "Salamander"
-      ],
-      [
-        "Cobra",
-        "Python"
-      ],
-      [
-        "Manta Ray",
-        "Stingray"
-      ],
-      [
-        "Seahorse",
-        "Pipefish"
-      ],
-      [
-        "Clownfish",
-        "Angelfish"
-      ],
-      [
-        "Pufferfish",
-        "Blowfish"
-      ],
-      [
-        "Tuna",
-        "Cod"
-      ]
+      ["Dog", "Cat"],
+      ["Lion", "Tiger"],
+      ["Elephant", "Hippo"],
+      ["Cow", "Buffalo"],
+      ["Horse", "Camel"],
+      ["Goat", "Sheep"],
+      ["Donkey", "Mule"],
+      ["Chicken", "Duck"],
+      ["Eagle", "Hawk"],
+      ["Owl", "Crow"],
+      ["Sparrow", "Pigeon"],
+      ["Parrot", "Parakeet"],
+      ["Peacock", "Crane"],
+      ["Flamingo", "Swan"],
+      ["Penguin", "Polar Bear"],
+      ["Frog", "Toad"],
+      ["Snake", "Lizard"],
+      ["Turtle", "Tortoise"],
+      ["Crocodile", "Alligator"],
+      ["Shark", "Dolphin"],
+      ["Whale", "Seal"],
+      ["Octopus", "Squid"],
+      ["Crab", "Lobster"],
+      ["Bee", "Wasp"],
+      ["Butterfly", "Moth"],
+      ["Ant", "Termite"],
+      ["Spider", "Scorpion"],
+      ["Mosquito", "Fly"],
+      ["Ladybug", "Beetle"],
+      ["Bear", "Panda"],
+      ["Wolf", "Fox"],
+      ["Rabbit", "Squirrel"],
+      ["Mouse", "Rat"],
+      ["Monkey", "Langur"],
+      ["Gorilla", "Chimpanzee"],
+      ["Kangaroo", "Koala"],
+      ["Giraffe", "Zebra"],
+      ["Rhino", "Hippo"],
+      ["Deer", "Antelope"],
+      ["Cheetah", "Leopard"],
+      ["Otter", "Beaver"],
+      ["Hedgehog", "Porcupine"],
+      ["Iguana", "Chameleon"],
+      ["Cobra", "Python"],
+      ["Dragonfly", "Firefly"],
+      ["Puppy", "Kitten"],
+      ["Calf", "Lamb"],
+      ["Rooster", "Hen"],
+      ["Mongoose", "Meerkat"],
+      ["Goldfish", "Koi"],
+      ["Tuna", "Sardine"],
+      ["Cuckoo", "Mynah"],
+      ["Kingfisher", "Woodpecker"],
+      ["Canary", "Finch"],
+      ["Ostrich", "Emu"],
+      ["Bat", "Flying Squirrel"],
+      ["Seahorse", "Starfish"],
+      ["Pufferfish", "Jellyfish"],
+      ["Manta Ray", "Stingray"],
+      ["Bison", "Yak"],
+      ["Wild Boar", "Wild Dog"],
+      ["Hamster", "Guinea Pig"],
+      ["Ferret", "Raccoon"]
     ],
     "places": [
-      [
-        "Beach",
-        "Pool"
-      ],
-      [
-        "Mountain",
-        "Hill"
-      ],
-      [
-        "Forest",
-        "Jungle"
-      ],
-      [
-        "Desert",
-        "Savanna"
-      ],
-      [
-        "River",
-        "Lake"
-      ],
-      [
-        "Ocean",
-        "Sea"
-      ],
-      [
-        "Island",
-        "Peninsula"
-      ],
-      [
-        "Volcano",
-        "Geyser"
-      ],
-      [
-        "Cave",
-        "Tunnel"
-      ],
-      [
-        "Waterfall",
-        "Spring"
-      ],
-      [
-        "Park",
-        "Garden"
-      ],
-      [
-        "Zoo",
-        "Aquarium"
-      ],
-      [
-        "Museum",
-        "Gallery"
-      ],
-      [
-        "Library",
-        "Bookstore"
-      ],
-      [
-        "School",
-        "University"
-      ],
-      [
-        "Hospital",
-        "Clinic"
-      ],
-      [
-        "Restaurant",
-        "Cafe"
-      ],
-      [
-        "Hotel",
-        "Motel"
-      ],
-      [
-        "Airport",
-        "Train Station"
-      ],
-      [
-        "Mall",
-        "Market"
-      ],
-      [
-        "Bank",
-        "ATM"
-      ],
-      [
-        "Church",
-        "Temple"
-      ],
-      [
-        "Mosque",
-        "Synagogue"
-      ],
-      [
-        "Castle",
-        "Palace"
-      ],
-      [
-        "Cottage",
-        "Cabin"
-      ],
-      [
-        "Apartment",
-        "House"
-      ],
-      [
-        "Office",
-        "Studio"
-      ],
-      [
-        "Factory",
-        "Warehouse"
-      ],
-      [
-        "Farm",
-        "Ranch"
-      ],
-      [
-        "Vineyard",
-        "Orchard"
-      ],
-      [
-        "Stadium",
-        "Arena"
-      ],
-      [
-        "Gym",
-        "Spa"
-      ],
-      [
-        "Cinema",
-        "Theatre"
-      ],
-      [
-        "Concert Hall",
-        "Opera House"
-      ],
-      [
-        "Bar",
-        "Pub"
-      ],
-      [
-        "Nightclub",
-        "Lounge"
-      ],
-      [
-        "Bakery",
-        "Patisserie"
-      ],
-      [
-        "Pharmacy",
-        "Drugstore"
-      ],
-      [
-        "Petrol Station",
-        "Charging Station"
-      ],
-      [
-        "Bridge",
-        "Tunnel"
-      ],
-      [
-        "Lighthouse",
-        "Watchtower"
-      ],
-      [
-        "Harbor",
-        "Marina"
-      ],
-      [
-        "Pier",
-        "Dock"
-      ],
-      [
-        "Subway",
-        "Tram"
-      ],
-      [
-        "Highway",
-        "Freeway"
-      ],
-      [
-        "Town",
-        "Village"
-      ],
-      [
-        "City",
-        "Suburb"
-      ],
-      [
-        "Country",
-        "Continent"
-      ],
-      [
-        "Paris",
-        "Rome"
-      ],
-      [
-        "London",
-        "Dublin"
-      ],
-      [
-        "Tokyo",
-        "Seoul"
-      ],
-      [
-        "New York",
-        "Chicago"
-      ],
-      [
-        "Sydney",
-        "Melbourne"
-      ],
-      [
-        "Dubai",
-        "Doha"
-      ],
-      [
-        "Mumbai",
-        "Delhi"
-      ],
-      [
-        "Bali",
-        "Maldives"
-      ],
-      [
-        "Hawaii",
-        "Bahamas"
-      ],
-      [
-        "Egypt",
-        "Greece"
-      ],
-      [
-        "Italy",
-        "France"
-      ],
-      [
-        "Brazil",
-        "Argentina"
-      ],
-      [
-        "Canada",
-        "Norway"
-      ],
-      [
-        "Japan",
-        "China"
-      ],
-      [
-        "Spain",
-        "Portugal"
-      ],
-      [
-        "Mexico",
-        "Cuba"
-      ],
-      [
-        "Iceland",
-        "Greenland"
-      ],
-      [
-        "Switzerland",
-        "Austria"
-      ],
-      [
-        "Thailand",
-        "Vietnam"
-      ],
-      [
-        "Playground",
-        "Amusement Park"
-      ],
-      [
-        "Carnival",
-        "Fair"
-      ],
-      [
-        "Cemetery",
-        "Graveyard"
-      ],
-      [
-        "Courthouse",
-        "City Hall"
-      ],
-      [
-        "Police Station",
-        "Fire Station"
-      ],
-      [
-        "Post Office",
-        "Courier Office"
-      ],
-      [
-        "Bus Stop",
-        "Taxi Stand"
-      ],
-      [
-        "Train Platform",
-        "Boarding Gate"
-      ],
-      [
-        "Kiosk",
-        "Newsstand"
-      ],
-      [
-        "Supermarket",
-        "Grocery Store"
-      ],
-      [
-        "Butcher Shop",
-        "Deli"
-      ],
-      [
-        "Coffee Shop",
-        "Tea House"
-      ],
-      [
-        "Ice Cream Parlor",
-        "Candy Shop"
-      ],
-      [
-        "Barber Shop",
-        "Salon"
-      ],
-      [
-        "Nail Salon",
-        "Tanning Salon"
-      ],
-      [
-        "Tailor Shop",
-        "Dry Cleaner"
-      ],
-      [
-        "Gas Station",
-        "Rest Stop"
-      ],
-      [
-        "Hostel",
-        "Bed and Breakfast"
-      ],
-      [
-        "Airbnb",
-        "Resort"
-      ],
-      [
-        "Casino",
-        "Arcade"
-      ],
-      [
-        "Bowling Alley",
-        "Skating Rink"
-      ],
-      [
-        "Ski Resort",
-        "Beach Resort"
-      ],
-      [
-        "Waterpark",
-        "Theme Park"
-      ],
-      [
-        "Desert",
-        "Tundra"
-      ],
-      [
-        "Rainforest",
-        "Woodland"
-      ],
-      [
-        "Reef",
-        "Atoll"
-      ],
-      [
-        "Prairie",
-        "Steppe"
-      ],
-      [
-        "Oasis",
-        "Spring"
-      ]
+      ["Beach", "Swimming Pool"],
+      ["Mountain", "Hill"],
+      ["Forest", "Jungle"],
+      ["River", "Lake"],
+      ["Waterfall", "Spring"],
+      ["Park", "Garden"],
+      ["Zoo", "Aquarium"],
+      ["Museum", "Gallery"],
+      ["Library", "Bookstore"],
+      ["School", "College"],
+      ["Hospital", "Clinic"],
+      ["Restaurant", "Dhaba"],
+      ["Hotel", "Guest House"],
+      ["Airport", "Railway Station"],
+      ["Mall", "Market"],
+      ["Temple", "Mosque"],
+      ["Church", "Gurudwara"],
+      ["Palace", "Fort"],
+      ["Village", "Town"],
+      ["Farm", "Orchard"],
+      ["Cricket Ground", "Football Field"],
+      ["Gym", "Playground"],
+      ["Cinema", "Theatre"],
+      ["Petrol Pump", "Toll Booth"],
+      ["Bridge", "Flyover"],
+      ["Bus Stop", "Auto Stand"],
+      ["Kirana Store", "Supermarket"],
+      ["Bakery", "Sweet Shop"],
+      ["Salon", "Barber Shop"],
+      ["Tailor Shop", "Laundry"],
+      ["Post Office", "Courier Office"],
+      ["Police Station", "Fire Station"],
+      ["Hostel", "PG"],
+      ["Resort", "Homestay"],
+      ["Amusement Park", "Waterpark"],
+      ["Mumbai", "Delhi"],
+      ["Bangalore", "Hyderabad"],
+      ["Chennai", "Kolkata"],
+      ["Jaipur", "Udaipur"],
+      ["Goa", "Pondicherry"],
+      ["Shimla", "Manali"],
+      ["Varanasi", "Haridwar"],
+      ["Agra", "Mathura"],
+      ["Mysore", "Hampi"],
+      ["Darjeeling", "Gangtok"],
+      ["Leh", "Ladakh"],
+      ["Andaman", "Goa"],
+      ["Dubai", "Singapore"],
+      ["London", "Paris"],
+      ["New York", "Los Angeles"],
+      ["Thailand", "Bali"],
+      ["Maldives", "Mauritius"],
+      ["Coffee Shop", "Tea Stall"],
+      ["Street Food Stall", "Food Court"],
+      ["Bowling Alley", "Skating Rink"],
+      ["Cave", "Canyon"],
+      ["Desert", "Grassland"],
+      ["Island", "Peninsula"],
+      ["Meadow", "Field"],
+      ["Valley", "Cliff"]
     ],
     "sports": [
-      [
-        "Soccer",
-        "Basketball"
-      ],
-      [
-        "Tennis",
-        "Badminton"
-      ],
-      [
-        "Cricket",
-        "Baseball"
-      ],
-      [
-        "Hockey",
-        "Lacrosse"
-      ],
-      [
-        "Rugby",
-        "Football"
-      ],
-      [
-        "Volleyball",
-        "Beach Volleyball"
-      ],
-      [
-        "Golf",
-        "Mini Golf"
-      ],
-      [
-        "Boxing",
-        "Wrestling"
-      ],
-      [
-        "Karate",
-        "Judo"
-      ],
-      [
-        "Taekwondo",
-        "Kung Fu"
-      ],
-      [
-        "Swimming",
-        "Diving"
-      ],
-      [
-        "Surfing",
-        "Windsurfing"
-      ],
-      [
-        "Skiing",
-        "Snowboarding"
-      ],
-      [
-        "Ice Skating",
-        "Roller Skating"
-      ],
-      [
-        "Cycling",
-        "Mountain Biking"
-      ],
-      [
-        "Marathon",
-        "Sprint"
-      ],
-      [
-        "Yoga",
-        "Pilates"
-      ],
-      [
-        "Gymnastics",
-        "Acrobatics"
-      ],
-      [
-        "Rock Climbing",
-        "Bouldering"
-      ],
-      [
-        "Skateboarding",
-        "Surfing"
-      ],
-      [
-        "Bowling",
-        "Curling"
-      ],
-      [
-        "Pool",
-        "Snooker"
-      ],
-      [
-        "Darts",
-        "Archery"
-      ],
-      [
-        "Chess",
-        "Checkers"
-      ],
-      [
-        "Poker",
-        "Blackjack"
-      ],
-      [
-        "Sudoku",
-        "Crossword"
-      ],
-      [
-        "Monopoly",
-        "Scrabble"
-      ],
-      [
-        "Charades",
-        "Pictionary"
-      ],
-      [
-        "Hide and Seek",
-        "Tag"
-      ],
-      [
-        "Tug of War",
-        "Arm Wrestling"
-      ],
-      [
-        "Polo",
-        "Equestrian"
-      ],
-      [
-        "Sailing",
-        "Rowing"
-      ],
-      [
-        "Fishing",
-        "Hunting"
-      ],
-      [
-        "Hiking",
-        "Camping"
-      ],
-      [
-        "Running",
-        "Jogging"
-      ],
-      [
-        "Walking",
-        "Trekking"
-      ],
-      [
-        "Weightlifting",
-        "Bodybuilding"
-      ],
-      [
-        "CrossFit",
-        "Aerobics"
-      ],
-      [
-        "Dancing",
-        "Ballet"
-      ],
-      [
-        "Salsa",
-        "Tango"
-      ],
-      [
-        "Hip Hop",
-        "Breakdance"
-      ],
-      [
-        "Fencing",
-        "Sword Fighting"
-      ],
-      [
-        "Paintball",
-        "Laser Tag"
-      ],
-      [
-        "Bungee Jumping",
-        "Skydiving"
-      ],
-      [
-        "Parkour",
-        "Free Running"
-      ],
-      [
-        "Kayaking",
-        "Canoeing"
-      ],
-      [
-        "Rafting",
-        "Tubing"
-      ],
-      [
-        "Frisbee",
-        "Boomerang"
-      ],
-      [
-        "Ping Pong",
-        "Tennis"
-      ],
-      [
-        "Squash",
-        "Racquetball"
-      ],
-      [
-        "Cheerleading",
-        "Dance Team"
-      ],
-      [
-        "Handball",
-        "Netball"
-      ],
-      [
-        "Water Polo",
-        "Synchronized Swimming"
-      ],
-      [
-        "Figure Skating",
-        "Speed Skating"
-      ],
-      [
-        "Bobsled",
-        "Luge"
-      ],
-      [
-        "Triathlon",
-        "Decathlon"
-      ],
-      [
-        "Shot Put",
-        "Discus"
-      ],
-      [
-        "Javelin",
-        "Hammer Throw"
-      ],
-      [
-        "High Jump",
-        "Long Jump"
-      ],
-      [
-        "Pole Vault",
-        "Hurdles"
-      ],
-      [
-        "Relay",
-        "Sprint"
-      ],
-      [
-        "Mixed Martial Arts",
-        "Kickboxing"
-      ],
-      [
-        "Sumo",
-        "Wrestling"
-      ],
-      [
-        "Jiu Jitsu",
-        "Aikido"
-      ],
-      [
-        "Rollerblading",
-        "Skateboarding"
-      ],
-      [
-        "BMX",
-        "Dirt Bike"
-      ],
-      [
-        "Horse Racing",
-        "Dog Racing"
-      ],
-      [
-        "Jet Ski",
-        "Water Ski"
-      ],
-      [
-        "Scuba Diving",
-        "Snorkeling"
-      ],
-      [
-        "Paragliding",
-        "Hang Gliding"
-      ],
-      [
-        "Zip Lining",
-        "Ropes Course"
-      ],
-      [
-        "Mini Golf",
-        "Disc Golf"
-      ],
-      [
-        "Dodgeball",
-        "Kickball"
-      ],
-      [
-        "Capture the Flag",
-        "Musical Chairs"
-      ],
-      [
-        "Limbo",
-        "Hopscotch"
-      ],
-      [
-        "Jump Rope",
-        "Hula Hoop"
-      ],
-      [
-        "Twister",
-        "Jenga"
-      ],
-      [
-        "Uno",
-        "Go Fish"
-      ],
-      [
-        "Risk",
-        "Clue"
-      ],
-      [
-        "Battleship",
-        "Connect Four"
-      ]
+      ["Cricket", "Football"],
+      ["Badminton", "Tennis"],
+      ["Kabaddi", "Kho Kho"],
+      ["Hockey", "Basketball"],
+      ["Volleyball", "Handball"],
+      ["Table Tennis", "Carrom"],
+      ["Chess", "Ludo"],
+      ["Swimming", "Cycling"],
+      ["Running", "Jogging"],
+      ["Yoga", "Meditation"],
+      ["Boxing", "Wrestling"],
+      ["Karate", "Judo"],
+      ["Golf", "Polo"],
+      ["Archery", "Shooting"],
+      ["Long Jump", "High Jump"],
+      ["Marathon", "Sprint"],
+      ["Rock Climbing", "Trekking"],
+      ["Hiking", "Camping"],
+      ["Surfing", "Kayaking"],
+      ["Rafting", "Paragliding"],
+      ["Paintball", "Laser Tag"],
+      ["Snooker", "Billiards"],
+      ["Bowling", "Darts"],
+      ["Poker", "Rummy"],
+      ["Teen Patti", "Blackjack"],
+      ["Monopoly", "Scrabble"],
+      ["Charades", "Pictionary"],
+      ["Hide and Seek", "Tag"],
+      ["Tug of War", "Arm Wrestling"],
+      ["Fishing", "Boating"],
+      ["Weightlifting", "Gymnastics"],
+      ["Skateboarding", "Rollerblading"],
+      ["Dodgeball", "Kickball"],
+      ["Jump Rope", "Hula Hoop"],
+      ["Frisbee", "Boomerang"],
+      ["Squash", "Racquetball"],
+      ["Water Polo", "Beach Volleyball"],
+      ["Triathlon", "Biathlon"],
+      ["Mixed Martial Arts", "Kickboxing"],
+      ["Horse Racing", "Camel Racing"],
+      ["Scuba Diving", "Snorkeling"],
+      ["Bungee Jumping", "Skydiving"],
+      ["IPL", "World Cup"],
+      ["Olympics", "Asian Games"],
+      ["Jenga", "Twister"],
+      ["Uno", "Go Fish"],
+      ["Relay Race", "Hurdles"],
+      ["Javelin", "Discus"],
+      ["Gymnastics", "Acrobatics"],
+      ["Ice Skating", "Roller Skating"]
     ],
     "jobs": [
-      [
-        "Doctor",
-        "Nurse"
-      ],
-      [
-        "Teacher",
-        "Tutor"
-      ],
-      [
-        "Lawyer",
-        "Judge"
-      ],
-      [
-        "Police Officer",
-        "Detective"
-      ],
-      [
-        "Firefighter",
-        "Paramedic"
-      ],
-      [
-        "Soldier",
-        "Marine"
-      ],
-      [
-        "Pilot",
-        "Flight Attendant"
-      ],
-      [
-        "Chef",
-        "Baker"
-      ],
-      [
-        "Waiter",
-        "Bartender"
-      ],
-      [
-        "Cashier",
-        "Salesperson"
-      ],
-      [
-        "Manager",
-        "Supervisor"
-      ],
-      [
-        "CEO",
-        "President"
-      ],
-      [
-        "Engineer",
-        "Architect"
-      ],
-      [
-        "Programmer",
-        "Developer"
-      ],
-      [
-        "Designer",
-        "Artist"
-      ],
-      [
-        "Photographer",
-        "Filmmaker"
-      ],
-      [
-        "Writer",
-        "Journalist"
-      ],
-      [
-        "Editor",
-        "Publisher"
-      ],
-      [
-        "Musician",
-        "Singer"
-      ],
-      [
-        "Actor",
-        "Comedian"
-      ],
-      [
-        "Dancer",
-        "Choreographer"
-      ],
-      [
-        "Painter",
-        "Sculptor"
-      ],
-      [
-        "Carpenter",
-        "Plumber"
-      ],
-      [
-        "Electrician",
-        "Mechanic"
-      ],
-      [
-        "Farmer",
-        "Gardener"
-      ],
-      [
-        "Driver",
-        "Chauffeur"
-      ],
-      [
-        "Taxi Driver",
-        "Uber Driver"
-      ],
-      [
-        "Bus Driver",
-        "Truck Driver"
-      ],
-      [
-        "Sailor",
-        "Captain"
-      ],
-      [
-        "Astronaut",
-        "Cosmonaut"
-      ],
-      [
-        "Scientist",
-        "Researcher"
-      ],
-      [
-        "Professor",
-        "Lecturer"
-      ],
-      [
-        "Librarian",
-        "Archivist"
-      ],
-      [
-        "Banker",
-        "Accountant"
-      ],
-      [
-        "Real Estate Agent",
-        "Broker"
-      ],
-      [
-        "Stock Trader",
-        "Investor"
-      ],
-      [
-        "Politician",
-        "Diplomat"
-      ],
-      [
-        "Mayor",
-        "Governor"
-      ],
-      [
-        "Priest",
-        "Pastor"
-      ],
-      [
-        "Monk",
-        "Nun"
-      ],
-      [
-        "Athlete",
-        "Coach"
-      ],
-      [
-        "Referee",
-        "Umpire"
-      ],
-      [
-        "Magician",
-        "Clown"
-      ],
-      [
-        "Detective",
-        "Spy"
-      ],
-      [
-        "Veterinarian",
-        "Zookeeper"
-      ],
-      [
-        "Dentist",
-        "Orthodontist"
-      ],
-      [
-        "Psychologist",
-        "Therapist"
-      ],
-      [
-        "Surgeon",
-        "Anesthesiologist"
-      ],
-      [
-        "Receptionist",
-        "Secretary"
-      ],
-      [
-        "Janitor",
-        "Cleaner"
-      ],
-      [
-        "Security Guard",
-        "Bouncer"
-      ],
-      [
-        "Tailor",
-        "Fashion Designer"
-      ],
-      [
-        "Hairdresser",
-        "Barber"
-      ],
-      [
-        "Makeup Artist",
-        "Stylist"
-      ],
-      [
-        "Florist",
-        "Botanist"
-      ],
-      [
-        "Butcher",
-        "Fishmonger"
-      ],
-      [
-        "Postman",
-        "Courier"
-      ],
-      [
-        "Plumber",
-        "Roofer"
-      ],
-      [
-        "Translator",
-        "Interpreter"
-      ],
-      [
-        "Tour Guide",
-        "Travel Agent"
-      ],
-      [
-        "Paramedic",
-        "EMT"
-      ],
-      [
-        "Pharmacist",
-        "Chemist"
-      ],
-      [
-        "Optometrist",
-        "Ophthalmologist"
-      ],
-      [
-        "Psychiatrist",
-        "Counselor"
-      ],
-      [
-        "Midwife",
-        "Doula"
-      ],
-      [
-        "Physical Therapist",
-        "Chiropractor"
-      ],
-      [
-        "Cardiologist",
-        "Neurologist"
-      ],
-      [
-        "Radiologist",
-        "Pathologist"
-      ],
-      [
-        "Pediatrician",
-        "Gynecologist"
-      ],
-      [
-        "Consultant",
-        "Advisor"
-      ],
-      [
-        "Analyst",
-        "Strategist"
-      ],
-      [
-        "Recruiter",
-        "Head Hunter"
-      ],
-      [
-        "Marketer",
-        "Copywriter"
-      ],
-      [
-        "Influencer",
-        "Blogger"
-      ],
-      [
-        "Streamer",
-        "Podcaster"
-      ],
-      [
-        "Data Scientist",
-        "Statistician"
-      ],
-      [
-        "UX Designer",
-        "Product Designer"
-      ],
-      [
-        "Game Developer",
-        "App Developer"
-      ],
-      [
-        "System Admin",
-        "Network Engineer"
-      ],
-      [
-        "Mechanic",
-        "Auto Technician"
-      ],
-      [
-        "Welder",
-        "Blacksmith"
-      ],
-      [
-        "Miner",
-        "Oil Worker"
-      ],
-      [
-        "Fisherman",
-        "Hunter"
-      ],
-      [
-        "Shepherd",
-        "Rancher"
-      ],
-      [
-        "Beekeeper",
-        "Apple Picker"
-      ]
+      ["Doctor", "Nurse"],
+      ["Teacher", "Tutor"],
+      ["Engineer", "Architect"],
+      ["Lawyer", "Judge"],
+      ["Police Officer", "Security Guard"],
+      ["Firefighter", "Paramedic"],
+      ["Soldier", "Army Officer"],
+      ["Pilot", "Air Hostess"],
+      ["Chef", "Baker"],
+      ["Waiter", "Cashier"],
+      ["Manager", "Supervisor"],
+      ["Programmer", "Developer"],
+      ["Designer", "Artist"],
+      ["Photographer", "Filmmaker"],
+      ["Writer", "Journalist"],
+      ["Musician", "Singer"],
+      ["Actor", "Director"],
+      ["Dancer", "Choreographer"],
+      ["Carpenter", "Plumber"],
+      ["Electrician", "Mechanic"],
+      ["Farmer", "Gardener"],
+      ["Auto Driver", "Taxi Driver"],
+      ["Bus Driver", "Truck Driver"],
+      ["Sailor", "Captain"],
+      ["Scientist", "Researcher"],
+      ["Professor", "Lecturer"],
+      ["Banker", "Accountant"],
+      ["Businessman", "Investor"],
+      ["Politician", "Minister"],
+      ["IAS Officer", "IPS Officer"],
+      ["Priest", "Pandit"],
+      ["Athlete", "Coach"],
+      ["Referee", "Umpire"],
+      ["Magician", "Comedian"],
+      ["Vet", "Zookeeper"],
+      ["Dentist", "Eye Doctor"],
+      ["Surgeon", "Specialist"],
+      ["Tailor", "Weaver"],
+      ["Hairdresser", "Barber"],
+      ["Makeup Artist", "Stylist"],
+      ["Postman", "Delivery Boy"],
+      ["Tour Guide", "Travel Agent"],
+      ["Pharmacist", "Chemist"],
+      ["Data Scientist", "Statistician"],
+      ["App Developer", "Game Developer"],
+      ["Influencer", "YouTuber"],
+      ["Recruiter", "HR Manager"],
+      ["Event Manager", "Wedding Planner"],
+      ["Social Worker", "NGO Worker"],
+      ["Astrologer", "Fortune Teller"],
+      ["Entrepreneur", "Startup Founder"],
+      ["Librarian", "Archivist"],
+      ["Florist", "Fruit Seller"],
+      ["Fisherman", "Hunter"],
+      ["Welder", "Blacksmith"],
+      ["Miner", "Construction Worker"],
+      ["Real Estate Agent", "Broker"]
     ],
     "household": [
-      [
-        "Sofa",
-        "Armchair"
-      ],
-      [
-        "Bed",
-        "Couch"
-      ],
-      [
-        "Table",
-        "Desk"
-      ],
-      [
-        "Chair",
-        "Stool"
-      ],
-      [
-        "Lamp",
-        "Chandelier"
-      ],
-      [
-        "Mirror",
-        "Picture Frame"
-      ],
-      [
-        "Curtain",
-        "Blinds"
-      ],
-      [
-        "Carpet",
-        "Rug"
-      ],
-      [
-        "Pillow",
-        "Cushion"
-      ],
-      [
-        "Blanket",
-        "Quilt"
-      ],
-      [
-        "Sheet",
-        "Towel"
-      ],
-      [
-        "Wardrobe",
-        "Closet"
-      ],
-      [
-        "Drawer",
-        "Cabinet"
-      ],
-      [
-        "Bookshelf",
-        "Bookcase"
-      ],
-      [
-        "TV",
-        "Monitor"
-      ],
-      [
-        "Remote",
-        "Controller"
-      ],
-      [
-        "Speaker",
-        "Headphones"
-      ],
-      [
-        "Radio",
-        "Boombox"
-      ],
-      [
-        "Clock",
-        "Watch"
-      ],
-      [
-        "Calendar",
-        "Diary"
-      ],
-      [
-        "Vase",
-        "Pot"
-      ],
-      [
-        "Candle",
-        "Lantern"
-      ],
-      [
-        "Fan",
-        "Air Conditioner"
-      ],
-      [
-        "Heater",
-        "Fireplace"
-      ],
-      [
-        "Oven",
-        "Microwave"
-      ],
-      [
-        "Stove",
-        "Cooktop"
-      ],
-      [
-        "Fridge",
-        "Freezer"
-      ],
-      [
-        "Dishwasher",
-        "Sink"
-      ],
-      [
-        "Washing Machine",
-        "Dryer"
-      ],
-      [
-        "Vacuum",
-        "Broom"
-      ],
-      [
-        "Mop",
-        "Duster"
-      ],
-      [
-        "Iron",
-        "Steamer"
-      ],
-      [
-        "Toaster",
-        "Kettle"
-      ],
-      [
-        "Blender",
-        "Mixer"
-      ],
-      [
-        "Coffee Maker",
-        "Espresso Machine"
-      ],
-      [
-        "Plate",
-        "Bowl"
-      ],
-      [
-        "Cup",
-        "Mug"
-      ],
-      [
-        "Glass",
-        "Tumbler"
-      ],
-      [
-        "Fork",
-        "Spoon"
-      ],
-      [
-        "Knife",
-        "Chopsticks"
-      ],
-      [
-        "Pan",
-        "Pot"
-      ],
-      [
-        "Spatula",
-        "Whisk"
-      ],
-      [
-        "Cutting Board",
-        "Tray"
-      ],
-      [
-        "Sponge",
-        "Cloth"
-      ],
-      [
-        "Soap",
-        "Shampoo"
-      ],
-      [
-        "Toothbrush",
-        "Toothpaste"
-      ],
-      [
-        "Toilet Paper",
-        "Tissue"
-      ],
-      [
-        "Trash Can",
-        "Recycling Bin"
-      ],
-      [
-        "Bucket",
-        "Basin"
-      ],
-      [
-        "Hose",
-        "Sprinkler"
-      ],
-      [
-        "Hammer",
-        "Mallet"
-      ],
-      [
-        "Screwdriver",
-        "Wrench"
-      ],
-      [
-        "Drill",
-        "Saw"
-      ],
-      [
-        "Nail",
-        "Screw"
-      ],
-      [
-        "Tape",
-        "Glue"
-      ],
-      [
-        "Scissors",
-        "Cutter"
-      ],
-      [
-        "Pen",
-        "Pencil"
-      ],
-      [
-        "Notebook",
-        "Journal"
-      ],
-      [
-        "Stapler",
-        "Hole Puncher"
-      ],
-      [
-        "Envelope",
-        "Letter"
-      ],
-      [
-        "Bathtub",
-        "Shower"
-      ],
-      [
-        "Showerhead",
-        "Faucet"
-      ],
-      [
-        "Tap",
-        "Hose Nozzle"
-      ],
-      [
-        "Washcloth",
-        "Loofah"
-      ],
-      [
-        "Bath Mat",
-        "Door Mat"
-      ],
-      [
-        "Shoe Rack",
-        "Coat Rack"
-      ],
-      [
-        "Umbrella Stand",
-        "Key Holder"
-      ],
-      [
-        "Picture Frame",
-        "Poster"
-      ],
-      [
-        "Wall Clock",
-        "Alarm Clock"
-      ],
-      [
-        "Night Light",
-        "Reading Lamp"
-      ],
-      [
-        "Floor Lamp",
-        "Table Lamp"
-      ],
-      [
-        "Bean Bag",
-        "Ottoman"
-      ],
-      [
-        "Rocking Chair",
-        "Recliner"
-      ],
-      [
-        "Hammock",
-        "Swing"
-      ],
-      [
-        "Crib",
-        "Bunk Bed"
-      ],
-      [
-        "Mattress",
-        "Bed Frame"
-      ],
-      [
-        "Bedside Table",
-        "Dresser"
-      ],
-      [
-        "Coat Hanger",
-        "Clothes Rack"
-      ],
-      [
-        "Laundry Basket",
-        "Hamper"
-      ],
-      [
-        "Ironing Board",
-        "Drying Rack"
-      ],
-      [
-        "Spice Rack",
-        "Knife Block"
-      ],
-      [
-        "Rolling Pin",
-        "Pastry Brush"
-      ],
-      [
-        "Measuring Cup",
-        "Measuring Spoon"
-      ],
-      [
-        "Colander",
-        "Strainer"
-      ],
-      [
-        "Can Opener",
-        "Bottle Opener"
-      ],
-      [
-        "Cheese Grater",
-        "Peeler"
-      ],
-      [
-        "Tongs",
-        "Slotted Spoon"
-      ],
-      [
-        "Ladle",
-        "Soup Spoon"
-      ],
-      [
-        "Kettle",
-        "Saucepan"
-      ],
-      [
-        "Coaster",
-        "Placemat"
-      ]
+      ["Sofa", "Chair"],
+      ["Bed", "Mattress"],
+      ["Table", "Desk"],
+      ["Fan", "Air Conditioner"],
+      ["TV", "Computer"],
+      ["Fridge", "Freezer"],
+      ["Washing Machine", "Bucket"],
+      ["Broom", "Mop"],
+      ["Pressure Cooker", "Kadai"],
+      ["Mixer Grinder", "Blender"],
+      ["Stove", "Induction"],
+      ["Oven", "Microwave"],
+      ["Kettle", "Toaster"],
+      ["Plate", "Bowl"],
+      ["Cup", "Glass"],
+      ["Spoon", "Fork"],
+      ["Pan", "Tawa"],
+      ["Knife", "Peeler"],
+      ["Ladle", "Spatula"],
+      ["Pillow", "Bolster"],
+      ["Blanket", "Quilt"],
+      ["Curtain", "Blinds"],
+      ["Lamp", "Tube Light"],
+      ["Mirror", "Picture Frame"],
+      ["Wardrobe", "Almirah"],
+      ["Bookshelf", "Rack"],
+      ["Remote", "Switch"],
+      ["Clock", "Calendar"],
+      ["Soap", "Shampoo"],
+      ["Toothbrush", "Tongue Cleaner"],
+      ["Towel", "Napkin"],
+      ["Trash Can", "Dustbin"],
+      ["Bucket", "Mug"],
+      ["Hammer", "Screwdriver"],
+      ["Scissors", "Cutter"],
+      ["Pen", "Pencil"],
+      ["Notebook", "Diary"],
+      ["Key", "Lock"],
+      ["Candle", "Lantern"],
+      ["Heater", "Geyser"],
+      ["Iron", "Steamer"],
+      ["Vacuum", "Duster"],
+      ["Shoe Rack", "Coat Hanger"],
+      ["Laundry Basket", "Clothes Rack"],
+      ["Spice Box", "Masala Dabba"],
+      ["Bathtub", "Shower"],
+      ["Vase", "Flower Pot"],
+      ["Alarm Clock", "Wall Clock"],
+      ["Bean Bag", "Hammock"],
+      ["Colander", "Strainer"]
     ],
     "entertainment": [
-      [
-        "Movie",
-        "TV Show"
-      ],
-      [
-        "Comedy",
-        "Drama"
-      ],
-      [
-        "Horror",
-        "Thriller"
-      ],
-      [
-        "Action",
-        "Adventure"
-      ],
-      [
-        "Romance",
-        "Romantic Comedy"
-      ],
-      [
-        "Sci-Fi",
-        "Fantasy"
-      ],
-      [
-        "Animation",
-        "Cartoon"
-      ],
-      [
-        "Documentary",
-        "News"
-      ],
-      [
-        "Reality Show",
-        "Talk Show"
-      ],
-      [
-        "Sitcom",
-        "Drama Series"
-      ],
-      [
-        "Concert",
-        "Festival"
-      ],
-      [
-        "Opera",
-        "Musical"
-      ],
-      [
-        "Ballet",
-        "Dance Show"
-      ],
-      [
-        "Magic Show",
-        "Circus"
-      ],
-      [
-        "Comedy Show",
-        "Stand Up"
-      ],
-      [
-        "Karaoke",
-        "Open Mic"
-      ],
-      [
-        "Pop Music",
-        "Rock Music"
-      ],
-      [
-        "Jazz",
-        "Blues"
-      ],
-      [
-        "Country",
-        "Folk"
-      ],
-      [
-        "Hip Hop",
-        "Rap"
-      ],
-      [
-        "Classical",
-        "Orchestral"
-      ],
-      [
-        "Electronic",
-        "Techno"
-      ],
-      [
-        "Reggae",
-        "Ska"
-      ],
-      [
-        "Metal",
-        "Punk"
-      ],
-      [
-        "Indie",
-        "Alternative"
-      ],
-      [
-        "Album",
-        "Single"
-      ],
-      [
-        "Playlist",
-        "Mixtape"
-      ],
-      [
-        "Podcast",
-        "Audiobook"
-      ],
-      [
-        "Vinyl",
-        "CD"
-      ],
-      [
-        "Guitar",
-        "Bass"
-      ],
-      [
-        "Piano",
-        "Keyboard"
-      ],
-      [
-        "Drums",
-        "Percussion"
-      ],
-      [
-        "Violin",
-        "Cello"
-      ],
-      [
-        "Flute",
-        "Clarinet"
-      ],
-      [
-        "Trumpet",
-        "Saxophone"
-      ],
-      [
-        "Harp",
-        "Lyre"
-      ],
-      [
-        "Microphone",
-        "Headphones"
-      ],
-      [
-        "Speaker",
-        "Amplifier"
-      ],
-      [
-        "Video Game",
-        "Board Game"
-      ],
-      [
-        "Console",
-        "PC Game"
-      ],
-      [
-        "Arcade",
-        "Pinball"
-      ],
-      [
-        "Puzzle",
-        "Crossword"
-      ],
-      [
-        "Comic Book",
-        "Graphic Novel"
-      ],
-      [
-        "Novel",
-        "Short Story"
-      ],
-      [
-        "Poem",
-        "Song Lyrics"
-      ],
-      [
-        "Magazine",
-        "Newspaper"
-      ],
-      [
-        "Theatre",
-        "Cinema"
-      ],
-      [
-        "Streaming",
-        "Cable TV"
-      ],
-      [
-        "YouTube",
-        "TikTok"
-      ],
-      [
-        "Netflix",
-        "Prime Video"
-      ],
-      [
-        "Sequel",
-        "Prequel"
-      ],
-      [
-        "Remake",
-        "Reboot"
-      ],
-      [
-        "Spinoff",
-        "Crossover"
-      ],
-      [
-        "Trailer",
-        "Teaser"
-      ],
-      [
-        "Blockbuster",
-        "Indie Film"
-      ],
-      [
-        "Short Film",
-        "Feature Film"
-      ],
-      [
-        "Mini Series",
-        "Anthology"
-      ],
-      [
-        "Season Finale",
-        "Pilot Episode"
-      ],
-      [
-        "Cliffhanger",
-        "Plot Twist"
-      ],
-      [
-        "Hero",
-        "Villain"
-      ],
-      [
-        "Protagonist",
-        "Antagonist"
-      ],
-      [
-        "Sidekick",
-        "Mentor"
-      ],
-      [
-        "Narrator",
-        "Host"
-      ],
-      [
-        "Director",
-        "Producer"
-      ],
-      [
-        "Stunt Double",
-        "Extra"
-      ],
-      [
-        "Oscar",
-        "Emmy"
-      ],
-      [
-        "Grammy",
-        "Tony"
-      ],
-      [
-        "Award Show",
-        "Red Carpet"
-      ],
-      [
-        "Premiere",
-        "After Party"
-      ],
-      [
-        "Soundtrack",
-        "Score"
-      ],
-      [
-        "Remix",
-        "Cover"
-      ],
-      [
-        "Live Album",
-        "Studio Album"
-      ],
-      [
-        "Music Video",
-        "Lyric Video"
-      ],
-      [
-        "Fan Club",
-        "Fandom"
-      ],
-      [
-        "Autograph",
-        "Selfie with Star"
-      ],
-      [
-        "Movie Poster",
-        "Billboard"
-      ],
-      [
-        "Bestseller",
-        "Classic Novel"
-      ],
-      [
-        "Fan Fiction",
-        "Original Story"
-      ],
-      [
-        "Sitcom",
-        "Soap Opera"
-      ],
-      [
-        "Mukbang",
-        "Cooking Show"
-      ]
+      ["Movie", "Web Series"],
+      ["Comedy", "Drama"],
+      ["Horror", "Thriller"],
+      ["Action", "Adventure"],
+      ["Bollywood", "Hollywood"],
+      ["South Indian Film", "Marathi Film"],
+      ["OTT Platform", "Cable TV"],
+      ["Netflix", "Amazon Prime"],
+      ["Hotstar", "Zee5"],
+      ["YouTube", "Instagram Reels"],
+      ["Podcast", "Audiobook"],
+      ["Stand Up Comedy", "Open Mic"],
+      ["Karaoke", "DJ Night"],
+      ["Concert", "Music Festival"],
+      ["Reality Show", "Talk Show"],
+      ["Daily Soap", "Sitcom"],
+      ["Bollywood Songs", "Devotional Songs"],
+      ["Hip Hop", "Rap"],
+      ["Classical Music", "Folk Music"],
+      ["Pop Music", "Rock Music"],
+      ["Guitar", "Piano"],
+      ["Tabla", "Mridangam"],
+      ["Sitar", "Veena"],
+      ["Flute", "Harmonium"],
+      ["Drums", "Violin"],
+      ["Microphone", "Speaker"],
+      ["Video Game", "Board Game"],
+      ["Puzzle", "Crossword"],
+      ["Comic Book", "Manga"],
+      ["Novel", "Short Story"],
+      ["Magazine", "Newspaper"],
+      ["Cinema Hall", "Multiplex"],
+      ["Blockbuster", "Indie Film"],
+      ["Hero", "Villain"],
+      ["Director", "Producer"],
+      ["Filmfare", "National Award"],
+      ["Oscars", "BAFTAs"],
+      ["Soundtrack", "Background Score"],
+      ["Music Video", "Live Performance"],
+      ["Fan Club", "Fan Page"],
+      ["Sequel", "Prequel"],
+      ["Remake", "Original"],
+      ["Cooking Show", "Travel Show"],
+      ["Game Show", "Quiz Show"],
+      ["News Anchor", "Reporter"],
+      ["TikTok Dance", "YouTube Vlog"],
+      ["Selfie", "Group Photo"],
+      ["Emoji", "Sticker"],
+      ["GIF", "Meme"],
+      ["Anime", "Cartoon"]
     ],
     "nature": [
-      [
-        "Sun",
-        "Moon"
-      ],
-      [
-        "Star",
-        "Planet"
-      ],
-      [
-        "Rainbow",
-        "Aurora"
-      ],
-      [
-        "Cloud",
-        "Fog"
-      ],
-      [
-        "Rain",
-        "Snow"
-      ],
-      [
-        "Hail",
-        "Sleet"
-      ],
-      [
-        "Storm",
-        "Hurricane"
-      ],
-      [
-        "Tornado",
-        "Cyclone"
-      ],
-      [
-        "Lightning",
-        "Thunder"
-      ],
-      [
-        "Wind",
-        "Breeze"
-      ],
-      [
-        "Earthquake",
-        "Tsunami"
-      ],
-      [
-        "Flood",
-        "Drought"
-      ],
-      [
-        "Wildfire",
-        "Bonfire"
-      ],
-      [
-        "Sunrise",
-        "Sunset"
-      ],
-      [
-        "Dawn",
-        "Dusk"
-      ],
-      [
-        "Day",
-        "Night"
-      ],
-      [
-        "Summer",
-        "Spring"
-      ],
-      [
-        "Winter",
-        "Autumn"
-      ],
-      [
-        "Heat Wave",
-        "Cold Snap"
-      ],
-      [
-        "Tree",
-        "Bush"
-      ],
-      [
-        "Flower",
-        "Plant"
-      ],
-      [
-        "Rose",
-        "Tulip"
-      ],
-      [
-        "Sunflower",
-        "Daisy"
-      ],
-      [
-        "Lily",
-        "Orchid"
-      ],
-      [
-        "Cactus",
-        "Succulent"
-      ],
-      [
-        "Grass",
-        "Moss"
-      ],
-      [
-        "Leaf",
-        "Petal"
-      ],
-      [
-        "Branch",
-        "Trunk"
-      ],
-      [
-        "Root",
-        "Seed"
-      ],
-      [
-        "Fruit",
-        "Vegetable"
-      ],
-      [
-        "Stone",
-        "Pebble"
-      ],
-      [
-        "Rock",
-        "Boulder"
-      ],
-      [
-        "Sand",
-        "Gravel"
-      ],
-      [
-        "Mud",
-        "Clay"
-      ],
-      [
-        "Snowflake",
-        "Icicle"
-      ],
-      [
-        "Dewdrop",
-        "Raindrop"
-      ],
-      [
-        "Mountain Range",
-        "Cliff"
-      ],
-      [
-        "Valley",
-        "Canyon"
-      ],
-      [
-        "Glacier",
-        "Iceberg"
-      ],
-      [
-        "Coral Reef",
-        "Lagoon"
-      ],
-      [
-        "Meadow",
-        "Field"
-      ],
-      [
-        "Swamp",
-        "Marsh"
-      ],
-      [
-        "Pond",
-        "Stream"
-      ],
-      [
-        "Spring",
-        "Well"
-      ],
-      [
-        "Comet",
-        "Meteor"
-      ],
-      [
-        "Galaxy",
-        "Solar System"
-      ],
-      [
-        "Eclipse",
-        "Equinox"
-      ],
-      [
-        "Tide",
-        "Wave"
-      ],
-      [
-        "Shell",
-        "Pearl"
-      ],
-      [
-        "Ocean Wave",
-        "River Current"
-      ],
-      [
-        "Wind Chime",
-        "Whispering Wind"
-      ],
-      [
-        "Morning Dew",
-        "Night Frost"
-      ],
-      [
-        "Mist",
-        "Haze"
-      ],
-      [
-        "Monsoon",
-        "Tropical Storm"
-      ],
-      [
-        "Blizzard",
-        "Snowstorm"
-      ],
-      [
-        "Whirlwind",
-        "Dust Devil"
-      ],
-      [
-        "Avalanche",
-        "Landslide"
-      ],
-      [
-        "Sinkhole",
-        "Crater"
-      ],
-      [
-        "Geode",
-        "Crystal"
-      ],
-      [
-        "Fossil",
-        "Dinosaur Bone"
-      ],
-      [
-        "Meteorite",
-        "Shooting Star"
-      ],
-      [
-        "Milky Way",
-        "Nebula"
-      ],
-      [
-        "Black Hole",
-        "White Dwarf"
-      ],
-      [
-        "Asteroid Belt",
-        "Oort Cloud"
-      ],
-      [
-        "Full Moon",
-        "Crescent Moon"
-      ],
-      [
-        "Solar Flare",
-        "Sunspot"
-      ],
-      [
-        "Palm Tree",
-        "Bamboo"
-      ],
-      [
-        "Oak Tree",
-        "Maple Tree"
-      ],
-      [
-        "Pine Tree",
-        "Fir Tree"
-      ],
-      [
-        "Willow Tree",
-        "Birch Tree"
-      ],
-      [
-        "Fern",
-        "Ivy"
-      ],
-      [
-        "Seaweed",
-        "Algae"
-      ],
-      [
-        "Lotus",
-        "Water Lily"
-      ],
-      [
-        "Dandelion",
-        "Clover"
-      ],
-      [
-        "Bamboo Shoot",
-        "Bean Sprout"
-      ],
-      [
-        "Pine Cone",
-        "Acorn"
-      ],
-      [
-        "Starfruit",
-        "Dragon Fruit"
-      ],
-      [
-        "Reef Fish",
-        "Deep Sea Fish"
-      ],
-      [
-        "Bird Nest",
-        "Beehive"
-      ],
-      [
-        "Spider Web",
-        "Silkworm Cocoon"
-      ]
+      ["Sun", "Moon"],
+      ["Star", "Planet"],
+      ["Rainbow", "Cloud"],
+      ["Rain", "Drizzle"],
+      ["Monsoon", "Summer"],
+      ["Winter", "Autumn"],
+      ["Storm", "Cyclone"],
+      ["Lightning", "Thunder"],
+      ["Wind", "Breeze"],
+      ["Earthquake", "Tsunami"],
+      ["Flood", "Drought"],
+      ["Sunrise", "Sunset"],
+      ["Morning", "Evening"],
+      ["Day", "Night"],
+      ["Tree", "Bush"],
+      ["Flower", "Plant"],
+      ["Rose", "Lotus"],
+      ["Sunflower", "Marigold"],
+      ["Jasmine", "Hibiscus"],
+      ["Tulsi", "Neem"],
+      ["Mango Tree", "Coconut Tree"],
+      ["Bamboo", "Sugarcane"],
+      ["Grass", "Moss"],
+      ["Leaf", "Petal"],
+      ["Branch", "Root"],
+      ["Seed", "Fruit"],
+      ["Stone", "Pebble"],
+      ["Sand", "Mud"],
+      ["Mountain", "Cliff"],
+      ["Valley", "Canyon"],
+      ["River", "Stream"],
+      ["Lake", "Pond"],
+      ["Waterfall", "Spring"],
+      ["Ocean", "Sea"],
+      ["Jungle", "Forest"],
+      ["Mist", "Fog"],
+      ["Eclipse", "Aurora"],
+      ["Comet", "Meteor"],
+      ["Full Moon", "New Moon"],
+      ["Tide", "Wave"],
+      ["Shell", "Pearl"],
+      ["Dewdrop", "Raindrop"],
+      ["Volcano", "Geyser"],
+      ["Fossil", "Crystal"],
+      ["Shooting Star", "Asteroid"],
+      ["Milky Way", "Solar System"],
+      ["Fern", "Ivy"],
+      ["Dandelion", "Clover"],
+      ["Dragon Fruit", "Star Fruit"],
+      ["Bird Nest", "Beehive"],
+      ["Spider Web", "Anthill"]
     ],
     "transport": [
-      [
-        "Car",
-        "Truck"
-      ],
-      [
-        "Bus",
-        "Coach"
-      ],
-      [
-        "Bicycle",
-        "Tricycle"
-      ],
-      [
-        "Motorcycle",
-        "Scooter"
-      ],
-      [
-        "Skateboard",
-        "Roller Skates"
-      ],
-      [
-        "Train",
-        "Tram"
-      ],
-      [
-        "Subway",
-        "Monorail"
-      ],
-      [
-        "Plane",
-        "Helicopter"
-      ],
-      [
-        "Jet",
-        "Glider"
-      ],
-      [
-        "Hot Air Balloon",
-        "Blimp"
-      ],
-      [
-        "Boat",
-        "Yacht"
-      ],
-      [
-        "Ship",
-        "Cruise"
-      ],
-      [
-        "Submarine",
-        "Sailboat"
-      ],
-      [
-        "Canoe",
-        "Kayak"
-      ],
-      [
-        "Raft",
-        "Surfboard"
-      ],
-      [
-        "Taxi",
-        "Uber"
-      ],
-      [
-        "Limousine",
-        "Sedan"
-      ],
-      [
-        "SUV",
-        "Minivan"
-      ],
-      [
-        "Pickup Truck",
-        "Van"
-      ],
-      [
-        "Sports Car",
-        "Race Car"
-      ],
-      [
-        "Convertible",
-        "Coupe"
-      ],
-      [
-        "Electric Car",
-        "Hybrid Car"
-      ],
-      [
-        "Tractor",
-        "Bulldozer"
-      ],
-      [
-        "Crane",
-        "Excavator"
-      ],
-      [
-        "Forklift",
-        "Cherry Picker"
-      ],
-      [
-        "Ambulance",
-        "Fire Truck"
-      ],
-      [
-        "Police Car",
-        "Patrol Car"
-      ],
-      [
-        "School Bus",
-        "Tour Bus"
-      ],
-      [
-        "Garbage Truck",
-        "Tow Truck"
-      ],
-      [
-        "Cement Mixer",
-        "Dump Truck"
-      ],
-      [
-        "Train Track",
-        "Highway"
-      ],
-      [
-        "Runway",
-        "Tarmac"
-      ],
-      [
-        "Bridge",
-        "Overpass"
-      ],
-      [
-        "Roundabout",
-        "Intersection"
-      ],
-      [
-        "Traffic Light",
-        "Stop Sign"
-      ],
-      [
-        "Road",
-        "Street"
-      ],
-      [
-        "Sidewalk",
-        "Crosswalk"
-      ],
-      [
-        "Parking Lot",
-        "Garage"
-      ],
-      [
-        "Gas Station",
-        "Charging Station"
-      ],
-      [
-        "Tire",
-        "Wheel"
-      ],
-      [
-        "Engine",
-        "Motor"
-      ],
-      [
-        "Steering Wheel",
-        "Handlebars"
-      ],
-      [
-        "Seatbelt",
-        "Helmet"
-      ],
-      [
-        "License Plate",
-        "Bumper Sticker"
-      ],
-      [
-        "Wagon",
-        "Sled"
-      ],
-      [
-        "Spaceship",
-        "Rocket"
-      ],
-      [
-        "Satellite",
-        "Space Station"
-      ],
-      [
-        "Ferry",
-        "Hovercraft"
-      ],
-      [
-        "Segway",
-        "Hoverboard"
-      ],
-      [
-        "Rickshaw",
-        "Pedicab"
-      ],
-      [
-        "Cable Car",
-        "Funicular"
-      ],
-      [
-        "Gondola Lift",
-        "Ski Lift"
-      ],
-      [
-        "Sleigh",
-        "Dog Sled"
-      ],
-      [
-        "Horse Carriage",
-        "Stagecoach"
-      ],
-      [
-        "Unicycle",
-        "Tricycle"
-      ],
-      [
-        "Hoverboard",
-        "Electric Scooter"
-      ],
-      [
-        "Go Kart",
-        "Bumper Car"
-      ],
-      [
-        "Roller Coaster",
-        "Ferris Wheel"
-      ],
-      [
-        "Zeppelin",
-        "Airship"
-      ],
-      [
-        "Glider",
-        "Paraglider"
-      ],
-      [
-        "Seaplane",
-        "Float Plane"
-      ],
-      [
-        "Cargo Ship",
-        "Container Ship"
-      ],
-      [
-        "Fishing Boat",
-        "Speedboat"
-      ],
-      [
-        "Jet Ski",
-        "Banana Boat"
-      ],
-      [
-        "Lifeboat",
-        "Dinghy"
-      ],
-      [
-        "Pirate Ship",
-        "Galleon"
-      ],
-      [
-        "Armored Truck",
-        "Money Van"
-      ],
-      [
-        "Delivery Van",
-        "Food Truck"
-      ],
-      [
-        "Camper Van",
-        "RV"
-      ],
-      [
-        "Race Horse",
-        "Camel Ride"
-      ],
-      [
-        "Elephant Ride",
-        "Donkey Ride"
-      ],
-      [
-        "Escalator",
-        "Elevator"
-      ],
-      [
-        "Moving Walkway",
-        "Travelator"
-      ],
-      [
-        "Zip Line",
-        "Rope Bridge"
-      ],
-      [
-        "Spacesuit",
-        "Scuba Gear"
-      ],
-      [
-        "Parachute",
-        "Wing Suit"
-      ],
-      [
-        "Jetpack",
-        "Rocket Pack"
-      ],
-      [
-        "Time Machine",
-        "Teleporter"
-      ],
-      [
-        "UFO",
-        "Flying Saucer"
-      ],
-      [
-        "Tank",
-        "Armored Vehicle"
-      ]
+      ["Car", "Bike"],
+      ["Bus", "Auto Rickshaw"],
+      ["Bicycle", "Scooter"],
+      ["Motorcycle", "Moped"],
+      ["Train", "Metro"],
+      ["Plane", "Helicopter"],
+      ["Boat", "Ship"],
+      ["Taxi", "Ola"],
+      ["Rickshaw", "Cycle Rickshaw"],
+      ["Ambulance", "Fire Truck"],
+      ["Police Car", "Patrol Bike"],
+      ["School Bus", "Minibus"],
+      ["Cargo Ship", "Ferry"],
+      ["Speedboat", "Fishing Boat"],
+      ["Canoe", "Kayak"],
+      ["Hot Air Balloon", "Glider"],
+      ["Spaceship", "Rocket"],
+      ["SUV", "Sedan"],
+      ["Truck", "Van"],
+      ["Sports Car", "Electric Car"],
+      ["Tractor", "Bulldozer"],
+      ["Forklift", "Crane"],
+      ["Flyover", "Underpass"],
+      ["Bridge", "Tunnel"],
+      ["Parking Lot", "Garage"],
+      ["Petrol Pump", "EV Charging"],
+      ["Seatbelt", "Helmet"],
+      ["Horse Cart", "Bullock Cart"],
+      ["Escalator", "Elevator"],
+      ["Go Kart", "Bumper Car"],
+      ["Cable Car", "Ski Lift"],
+      ["Zip Line", "Rope Bridge"],
+      ["Parachute", "Jetpack"],
+      ["Jet Ski", "Banana Boat"],
+      ["Lifeboat", "Raft"],
+      ["Tram", "Monorail"],
+      ["Electric Scooter", "Hoverboard"],
+      ["Submarine", "Sailboat"],
+      ["Sleigh", "Dog Sled"],
+      ["UFO", "Time Machine"]
     ],
     "body": [
-      [
-        "Hand",
-        "Foot"
-      ],
-      [
-        "Arm",
-        "Leg"
-      ],
-      [
-        "Finger",
-        "Toe"
-      ],
-      [
-        "Eye",
-        "Ear"
-      ],
-      [
-        "Nose",
-        "Mouth"
-      ],
-      [
-        "Lips",
-        "Tongue"
-      ],
-      [
-        "Teeth",
-        "Gums"
-      ],
-      [
-        "Hair",
-        "Beard"
-      ],
-      [
-        "Eyebrow",
-        "Eyelash"
-      ],
-      [
-        "Cheek",
-        "Chin"
-      ],
-      [
-        "Forehead",
-        "Temple"
-      ],
-      [
-        "Neck",
-        "Throat"
-      ],
-      [
-        "Shoulder",
-        "Elbow"
-      ],
-      [
-        "Wrist",
-        "Ankle"
-      ],
-      [
-        "Knee",
-        "Hip"
-      ],
-      [
-        "Back",
-        "Chest"
-      ],
-      [
-        "Stomach",
-        "Belly"
-      ],
-      [
-        "Heart",
-        "Lungs"
-      ],
-      [
-        "Brain",
-        "Spine"
-      ],
-      [
-        "Liver",
-        "Kidney"
-      ],
-      [
-        "Bone",
-        "Muscle"
-      ],
-      [
-        "Skin",
-        "Nail"
-      ],
-      [
-        "Blood",
-        "Veins"
-      ],
-      [
-        "Fever",
-        "Cold"
-      ],
-      [
-        "Cough",
-        "Sneeze"
-      ],
-      [
-        "Headache",
-        "Stomachache"
-      ],
-      [
-        "Allergy",
-        "Asthma"
-      ],
-      [
-        "Bandage",
-        "Plaster"
-      ],
-      [
-        "Pill",
-        "Tablet"
-      ],
-      [
-        "Vitamin",
-        "Supplement"
-      ],
-      [
-        "Vaccine",
-        "Antibiotic"
-      ],
-      [
-        "Stretcher",
-        "Wheelchair"
-      ],
-      [
-        "Crutches",
-        "Cane"
-      ],
-      [
-        "Glasses",
-        "Contact Lenses"
-      ],
-      [
-        "Hearing Aid",
-        "Earplugs"
-      ],
-      [
-        "Mask",
-        "Gloves"
-      ],
-      [
-        "Thermometer",
-        "Stethoscope"
-      ],
-      [
-        "Sleep",
-        "Nap"
-      ],
-      [
-        "Yawn",
-        "Stretch"
-      ],
-      [
-        "Smile",
-        "Laugh"
-      ],
-      [
-        "Cry",
-        "Frown"
-      ],
-      [
-        "Hug",
-        "Kiss"
-      ],
-      [
-        "Handshake",
-        "High Five"
-      ],
-      [
-        "Walk",
-        "Run"
-      ],
-      [
-        "Jump",
-        "Hop"
-      ],
-      [
-        "Sit",
-        "Stand"
-      ],
-      [
-        "Sing",
-        "Hum"
-      ],
-      [
-        "Whisper",
-        "Shout"
-      ],
-      [
-        "Fingernail",
-        "Toenail"
-      ],
-      [
-        "Palm",
-        "Fist"
-      ],
-      [
-        "Thumb",
-        "Pinky"
-      ],
-      [
-        "Knuckle",
-        "Joint"
-      ],
-      [
-        "Scalp",
-        "Skull"
-      ],
-      [
-        "Dimple",
-        "Freckle"
-      ],
-      [
-        "Mole",
-        "Birthmark"
-      ],
-      [
-        "Pimple",
-        "Blister"
-      ],
-      [
-        "Scar",
-        "Bruise"
-      ],
-      [
-        "Wrinkle",
-        "Crease"
-      ],
-      [
-        "Earlobe",
-        "Eardrum"
-      ],
-      [
-        "Nostril",
-        "Sinus"
-      ],
-      [
-        "Eardrum",
-        "Vocal Cords"
-      ],
-      [
-        "Jaw",
-        "Cheekbone"
-      ],
-      [
-        "Collarbone",
-        "Rib"
-      ],
-      [
-        "Pelvis",
-        "Hipbone"
-      ],
-      [
-        "Thigh",
-        "Calf"
-      ],
-      [
-        "Shin",
-        "Heel"
-      ],
-      [
-        "Ankle",
-        "Arch"
-      ],
-      [
-        "Bicep",
-        "Tricep"
-      ],
-      [
-        "Abs",
-        "Core"
-      ],
-      [
-        "Glutes",
-        "Hamstrings"
-      ],
-      [
-        "Spine",
-        "Backbone"
-      ],
-      [
-        "Nerve",
-        "Tendon"
-      ],
-      [
-        "Ligament",
-        "Cartilage"
-      ],
-      [
-        "Pulse",
-        "Heartbeat"
-      ],
-      [
-        "Breath",
-        "Hiccup"
-      ],
-      [
-        "Snore",
-        "Whistle"
-      ],
-      [
-        "Burp",
-        "Sneeze"
-      ],
-      [
-        "Shiver",
-        "Goosebumps"
-      ],
-      [
-        "Tears",
-        "Sweat"
-      ],
-      [
-        "Saliva",
-        "Drool"
-      ]
+      ["Hand", "Foot"],
+      ["Arm", "Leg"],
+      ["Finger", "Toe"],
+      ["Eye", "Ear"],
+      ["Nose", "Mouth"],
+      ["Lips", "Tongue"],
+      ["Teeth", "Gums"],
+      ["Hair", "Beard"],
+      ["Eyebrow", "Eyelash"],
+      ["Cheek", "Chin"],
+      ["Forehead", "Temple"],
+      ["Neck", "Throat"],
+      ["Shoulder", "Elbow"],
+      ["Wrist", "Ankle"],
+      ["Knee", "Hip"],
+      ["Back", "Chest"],
+      ["Stomach", "Belly"],
+      ["Heart", "Lungs"],
+      ["Brain", "Spine"],
+      ["Bone", "Muscle"],
+      ["Skin", "Nail"],
+      ["Blood", "Veins"],
+      ["Fever", "Cold"],
+      ["Cough", "Sneeze"],
+      ["Headache", "Stomachache"],
+      ["Bandage", "Plaster"],
+      ["Tablet", "Capsule"],
+      ["Vaccine", "Injection"],
+      ["Wheelchair", "Crutches"],
+      ["Glasses", "Contact Lenses"],
+      ["Thermometer", "Stethoscope"],
+      ["Sleep", "Nap"],
+      ["Smile", "Laugh"],
+      ["Cry", "Frown"],
+      ["Hug", "Handshake"],
+      ["Walk", "Run"],
+      ["Jump", "Hop"],
+      ["Whisper", "Shout"],
+      ["Thumb", "Pinky"],
+      ["Palm", "Fist"],
+      ["Dimple", "Freckle"],
+      ["Scar", "Bruise"],
+      ["Shiver", "Goosebumps"],
+      ["Tears", "Sweat"],
+      ["Thigh", "Calf"],
+      ["Bicep", "Tricep"],
+      ["Pulse", "Heartbeat"],
+      ["Breath", "Hiccup"],
+      ["Snore", "Sleepwalk"],
+      ["Pimple", "Rash"]
     ],
     "clothing": [
-      [
-        "Shirt",
-        "T-Shirt"
-      ],
-      [
-        "Jeans",
-        "Trousers"
-      ],
-      [
-        "Shorts",
-        "Skirt"
-      ],
-      [
-        "Dress",
-        "Gown"
-      ],
-      [
-        "Suit",
-        "Tuxedo"
-      ],
-      [
-        "Jacket",
-        "Blazer"
-      ],
-      [
-        "Coat",
-        "Overcoat"
-      ],
-      [
-        "Hoodie",
-        "Sweater"
-      ],
-      [
-        "Cardigan",
-        "Pullover"
-      ],
-      [
-        "Vest",
-        "Waistcoat"
-      ],
-      [
-        "Pajamas",
-        "Robe"
-      ],
-      [
-        "Socks",
-        "Stockings"
-      ],
-      [
-        "Underwear",
-        "Boxers"
-      ],
-      [
-        "Tie",
-        "Bow Tie"
-      ],
-      [
-        "Scarf",
-        "Shawl"
-      ],
-      [
-        "Belt",
-        "Suspenders"
-      ],
-      [
-        "Hat",
-        "Cap"
-      ],
-      [
-        "Beanie",
-        "Bucket Hat"
-      ],
-      [
-        "Sunglasses",
-        "Goggles"
-      ],
-      [
-        "Helmet",
-        "Crown"
-      ],
-      [
-        "Veil",
-        "Headband"
-      ],
-      [
-        "Earrings",
-        "Necklace"
-      ],
-      [
-        "Bracelet",
-        "Anklet"
-      ],
-      [
-        "Ring",
-        "Watch"
-      ],
-      [
-        "Brooch",
-        "Pendant"
-      ],
-      [
-        "Handbag",
-        "Backpack"
-      ],
-      [
-        "Briefcase",
-        "Suitcase"
-      ],
-      [
-        "Wallet",
-        "Purse"
-      ],
-      [
-        "Umbrella",
-        "Raincoat"
-      ],
-      [
-        "Sneakers",
-        "Trainers"
-      ],
-      [
-        "Boots",
-        "Heels"
-      ],
-      [
-        "Sandals",
-        "Flip Flops"
-      ],
-      [
-        "Slippers",
-        "Loafers"
-      ],
-      [
-        "Mittens",
-        "Gloves"
-      ],
-      [
-        "Apron",
-        "Smock"
-      ],
-      [
-        "Bikini",
-        "Swimsuit"
-      ],
-      [
-        "Wetsuit",
-        "Drysuit"
-      ],
-      [
-        "Kimono",
-        "Sari"
-      ],
-      [
-        "Lehenga",
-        "Kurta"
-      ],
-      [
-        "Leggings",
-        "Tights"
-      ],
-      [
-        "Tank Top",
-        "Crop Top"
-      ],
-      [
-        "Polo Shirt",
-        "Henley"
-      ],
-      [
-        "Trench Coat",
-        "Pea Coat"
-      ],
-      [
-        "Denim Jacket",
-        "Leather Jacket"
-      ],
-      [
-        "Bandana",
-        "Headscarf"
-      ],
-      [
-        "Nightgown",
-        "Bathrobe"
-      ],
-      [
-        "Onesie",
-        "Jumpsuit"
-      ],
-      [
-        "Romper",
-        "Playsuit"
-      ],
-      [
-        "Blouse",
-        "Tunic"
-      ],
-      [
-        "Chinos",
-        "Khakis"
-      ],
-      [
-        "Cargo Pants",
-        "Sweatpants"
-      ],
-      [
-        "Joggers",
-        "Tracksuit"
-      ],
-      [
-        "Overalls",
-        "Dungarees"
-      ],
-      [
-        "Windbreaker",
-        "Raincoat"
-      ],
-      [
-        "Puffer Jacket",
-        "Parka"
-      ],
-      [
-        "Fleece",
-        "Sweatshirt"
-      ],
-      [
-        "Turtleneck",
-        "Mock Neck"
-      ],
-      [
-        "Halter Top",
-        "Camisole"
-      ],
-      [
-        "Maxi Dress",
-        "Mini Dress"
-      ],
-      [
-        "Sundress",
-        "Cocktail Dress"
-      ],
-      [
-        "Tuxedo",
-        "Suit Jacket"
-      ],
-      [
-        "Bow Tie",
-        "Cravat"
-      ],
-      [
-        "Pocket Square",
-        "Handkerchief"
-      ],
-      [
-        "Cufflinks",
-        "Tie Clip"
-      ],
-      [
-        "Choker",
-        "Locket"
-      ],
-      [
-        "Tiara",
-        "Headpiece"
-      ],
-      [
-        "Fascinator",
-        "Hair Clip"
-      ],
-      [
-        "Ponytail Holder",
-        "Scrunchie"
-      ],
-      [
-        "Sun Hat",
-        "Cowboy Hat"
-      ],
-      [
-        "Top Hat",
-        "Bowler Hat"
-      ],
-      [
-        "Fedora",
-        "Trilby"
-      ],
-      [
-        "Clogs",
-        "Mules"
-      ],
-      [
-        "Ballet Flats",
-        "Oxfords"
-      ],
-      [
-        "Wedges",
-        "Platforms"
-      ],
-      [
-        "Ankle Boots",
-        "Knee Boots"
-      ]
+      ["Shirt", "T-Shirt"],
+      ["Jeans", "Trousers"],
+      ["Shorts", "Track Pants"],
+      ["Kurta", "Sherwani"],
+      ["Saree", "Lehenga"],
+      ["Salwar Kameez", "Churidar"],
+      ["Dhoti", "Lungi"],
+      ["Dupatta", "Stole"],
+      ["Jacket", "Blazer"],
+      ["Hoodie", "Sweatshirt"],
+      ["Sweater", "Cardigan"],
+      ["Raincoat", "Windbreaker"],
+      ["Pajamas", "Nightgown"],
+      ["Socks", "Stockings"],
+      ["Tie", "Bow Tie"],
+      ["Scarf", "Shawl"],
+      ["Belt", "Suspenders"],
+      ["Cap", "Hat"],
+      ["Sunglasses", "Reading Glasses"],
+      ["Helmet", "Turban"],
+      ["Earrings", "Necklace"],
+      ["Bangles", "Kadas"],
+      ["Mangalsutra", "Chain"],
+      ["Ring", "Watch"],
+      ["Anklet", "Payel"],
+      ["Handbag", "Backpack"],
+      ["Wallet", "Purse"],
+      ["Umbrella", "Raincoat"],
+      ["Sneakers", "Sports Shoes"],
+      ["Sandals", "Chappals"],
+      ["Slippers", "Jutti"],
+      ["Mittens", "Gloves"],
+      ["Apron", "Lab Coat"],
+      ["Swimsuit", "Shorts"],
+      ["Tracksuit", "Joggers"],
+      ["Tank Top", "Crop Top"],
+      ["Denim Jacket", "Leather Jacket"],
+      ["Bandana", "Headband"],
+      ["Maxi Dress", "Mini Dress"],
+      ["Kurta Pajama", "Achkan"],
+      ["Handkerchief", "Pocket Square"],
+      ["Bindi", "Maang Tikka"],
+      ["Pagdi", "Pheta"],
+      ["Leggings", "Tights"],
+      ["Blouse", "Tunic"],
+      ["Overalls", "Jumpsuit"],
+      ["Formal Shirt", "Polo Shirt"],
+      ["Boots", "Formal Shoes"],
+      ["Kolhapuri", "Mojari"],
+      ["Puffer Jacket", "Fleece"]
     ],
     "technology": [
-      [
-        "Laptop",
-        "Desktop"
-      ],
-      [
-        "Phone",
-        "Tablet"
-      ],
-      [
-        "Smartwatch",
-        "Fitness Band"
-      ],
-      [
-        "Headphones",
-        "Earbuds"
-      ],
-      [
-        "Speaker",
-        "Soundbar"
-      ],
-      [
-        "Camera",
-        "Camcorder"
-      ],
-      [
-        "Drone",
-        "Quadcopter"
-      ],
-      [
-        "Printer",
-        "Scanner"
-      ],
-      [
-        "Keyboard",
-        "Mouse"
-      ],
-      [
-        "Monitor",
-        "Projector"
-      ],
-      [
-        "USB Drive",
-        "Hard Drive"
-      ],
-      [
-        "SD Card",
-        "Memory Stick"
-      ],
-      [
-        "Router",
-        "Modem"
-      ],
-      [
-        "WiFi",
-        "Bluetooth"
-      ],
-      [
-        "Charger",
-        "Power Bank"
-      ],
-      [
-        "Cable",
-        "Adapter"
-      ],
-      [
-        "Battery",
-        "Solar Panel"
-      ],
-      [
-        "Email",
-        "Text Message"
-      ],
-      [
-        "Video Call",
-        "Phone Call"
-      ],
-      [
-        "Website",
-        "App"
-      ],
-      [
-        "Browser",
-        "Search Engine"
-      ],
-      [
-        "Google",
-        "Bing"
-      ],
-      [
-        "YouTube",
-        "Vimeo"
-      ],
-      [
-        "Facebook",
-        "Instagram"
-      ],
-      [
-        "Twitter",
-        "Threads"
-      ],
-      [
-        "TikTok",
-        "Snapchat"
-      ],
-      [
-        "WhatsApp",
-        "Telegram"
-      ],
-      [
-        "Zoom",
-        "Teams"
-      ],
-      [
-        "Spotify",
-        "Apple Music"
-      ],
-      [
-        "Netflix",
-        "Disney Plus"
-      ],
-      [
-        "Photo",
-        "Video"
-      ],
-      [
-        "Selfie",
-        "Group Photo"
-      ],
-      [
-        "Emoji",
-        "Sticker"
-      ],
-      [
-        "GIF",
-        "Meme"
-      ],
-      [
-        "Password",
-        "PIN"
-      ],
-      [
-        "Username",
-        "Email Address"
-      ],
-      [
-        "Cloud Storage",
-        "USB Backup"
-      ],
-      [
-        "AI",
-        "Robot"
-      ],
-      [
-        "Chatbot",
-        "Voice Assistant"
-      ],
-      [
-        "Siri",
-        "Alexa"
-      ],
-      [
-        "VR Headset",
-        "AR Glasses"
-      ],
-      [
-        "Game Console",
-        "Handheld"
-      ],
-      [
-        "PlayStation",
-        "Xbox"
-      ],
-      [
-        "Nintendo",
-        "Sega"
-      ],
-      [
-        "Bitcoin",
-        "Ethereum"
-      ],
-      [
-        "Smart TV",
-        "Streaming Stick"
-      ],
-      [
-        "E-Reader",
-        "Tablet"
-      ],
-      [
-        "Mechanical Keyboard",
-        "Membrane Keyboard"
-      ],
-      [
-        "Wired Headphones",
-        "Wireless Earbuds"
-      ],
-      [
-        "Noise Cancelling",
-        "Sound Isolating"
-      ],
-      [
-        "Selfie Stick",
-        "Tripod"
-      ],
-      [
-        "Webcam",
-        "DSLR"
-      ],
-      [
-        "Action Camera",
-        "GoPro"
-      ],
-      [
-        "Ring Light",
-        "Softbox"
-      ],
-      [
-        "Green Screen",
-        "Blue Screen"
-      ],
-      [
-        "Microphone",
-        "Lapel Mic"
-      ],
-      [
-        "Pop Filter",
-        "Windscreen"
-      ],
-      [
-        "Graphics Card",
-        "Processor"
-      ],
-      [
-        "RAM",
-        "Storage Drive"
-      ],
-      [
-        "SSD",
-        "HDD"
-      ],
-      [
-        "Operating System",
-        "Software"
-      ],
-      [
-        "Windows",
-        "MacOS"
-      ],
-      [
-        "Android",
-        "iOS"
-      ],
-      [
-        "Linux",
-        "Unix"
-      ],
-      [
-        "Chrome",
-        "Firefox"
-      ],
-      [
-        "Safari",
-        "Edge"
-      ],
-      [
-        "Gmail",
-        "Outlook"
-      ],
-      [
-        "Google Docs",
-        "Word"
-      ],
-      [
-        "Sheets",
-        "Excel"
-      ],
-      [
-        "Slack",
-        "Discord"
-      ],
-      [
-        "Notion",
-        "Evernote"
-      ],
-      [
-        "Dropbox",
-        "Google Drive"
-      ],
-      [
-        "GitHub",
-        "GitLab"
-      ],
-      [
-        "VR Headset",
-        "Smart Glasses"
-      ],
-      [
-        "Smart Speaker",
-        "Smart Display"
-      ],
-      [
-        "Smart Bulb",
-        "Smart Plug"
-      ],
-      [
-        "Smart Lock",
-        "Doorbell Camera"
-      ],
-      [
-        "Robot Vacuum",
-        "Smart Mop"
-      ],
-      [
-        "3D Printer",
-        "Laser Cutter"
-      ],
-      [
-        "Fitness Tracker",
-        "Heart Rate Monitor"
-      ]
+      ["Laptop", "Desktop"],
+      ["Phone", "Tablet"],
+      ["Smartwatch", "Fitness Band"],
+      ["Headphones", "Earphones"],
+      ["Speaker", "Soundbar"],
+      ["Camera", "DSLR"],
+      ["Drone", "Selfie Stick"],
+      ["Printer", "Scanner"],
+      ["Keyboard", "Mouse"],
+      ["Monitor", "Projector"],
+      ["USB Drive", "Hard Disk"],
+      ["Router", "Modem"],
+      ["WiFi", "Hotspot"],
+      ["Charger", "Power Bank"],
+      ["Email", "WhatsApp"],
+      ["Video Call", "Voice Call"],
+      ["Website", "App"],
+      ["Google", "YouTube"],
+      ["Instagram", "Facebook"],
+      ["Twitter", "Threads"],
+      ["Snapchat", "TikTok"],
+      ["WhatsApp", "Telegram"],
+      ["Zoom", "Google Meet"],
+      ["Spotify", "Wynk Music"],
+      ["Netflix", "Hotstar"],
+      ["Amazon Prime", "SonyLIV"],
+      ["Selfie", "Group Photo"],
+      ["Emoji", "Sticker"],
+      ["GIF", "Meme"],
+      ["Password", "OTP"],
+      ["Cloud Storage", "Google Drive"],
+      ["AI", "Chatbot"],
+      ["Google Assistant", "Siri"],
+      ["VR Headset", "AR Glasses"],
+      ["PlayStation", "Xbox"],
+      ["Mobile Game", "PC Game"],
+      ["UPI", "Net Banking"],
+      ["Paytm", "PhonePe"],
+      ["Smart TV", "Android TV"],
+      ["Webcam", "Ring Light"],
+      ["RAM", "Storage"],
+      ["SSD", "Pen Drive"],
+      ["Android", "iOS"],
+      ["Windows", "MacOS"],
+      ["Chrome", "Firefox"],
+      ["Gmail", "Outlook"],
+      ["Google Docs", "MS Word"],
+      ["Slack", "Discord"],
+      ["Notion", "OneNote"],
+      ["GitHub", "GitLab"],
+      ["GPS", "Google Maps"],
+      ["IRCTC App", "Redbus App"],
+      ["Aadhaar App", "DigiLocker"],
+      ["Smart Bulb", "Smart Plug"],
+      ["Robot Vacuum", "Smart AC"],
+      ["3D Printer", "Laser Cutter"],
+      ["Fitness Tracker", "Heart Rate Monitor"]
     ]
   }
 }

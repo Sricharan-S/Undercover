@@ -12,6 +12,7 @@ import { applyCardsToPlayers, buildCardDeck, buildSpeakingOrder } from '../lib/r
 import { pickWordPair } from '../lib/wordPicker';
 import { checkWinner, computeResults } from '../lib/scoring';
 import { useRosterStore } from './rosterStore';
+import { broadcast, sendToHost, sendToPeer } from '../lib/peer';
 
 interface PendingSetup {
   category: string;
@@ -129,6 +130,86 @@ function dealNewRound(
   };
 }
 
+// ─── Online helpers ───────────────────────────────────────────────────────────
+
+/**
+ * After the host mutates local state, broadcast the new public state to all guests.
+ * For the reveal phase, sends a private REVEAL_CARD to the current picker so they
+ * see their real role/word, and sends a public STATE_UPDATE (without role/word) to all.
+ */
+function broadcastStateIfOnline(state: GameState) {
+  if (state.mode !== 'online') return;
+
+  const publicCards = state.cards.map((c) => ({
+    id: c.id,
+    pickedByPlayerId: c.pickedByPlayerId,
+    role: 'civilian' as const,
+    word: null as null,
+  }));
+
+  const publicPlayers = state.players.map((p) => ({
+    ...p,
+    word: null as null,
+    role: 'civilian' as const,
+  }));
+
+  const publicSpeakingOrder = state.speakingOrder.map((p) => ({
+    ...p,
+    word: null as null,
+    role: 'civilian' as const,
+  }));
+
+  // During reveal: privately tell the current picker their real role+word
+  if (state.phase === 'reveal' && state.revealCardId) {
+    const revealCard = state.cards.find((c) => c.id === state.revealCardId);
+    const currentPicker = state.players[state.currentPickerIndex];
+    if (revealCard && currentPicker) {
+      sendToPeer(currentPicker.id, {
+        type: 'REVEAL_CARD' as import('../lib/peer').NetMessageType,
+        payload: {
+          cardId: revealCard.id,
+          role: revealCard.role,
+          word: revealCard.word,
+          playerId: currentPicker.id,
+        },
+      });
+    }
+  }
+
+  broadcast({
+    type: 'STATE_UPDATE',
+    payload: {
+      phase: state.phase,
+      players: publicPlayers,
+      cards: publicCards,
+      speakingOrder: publicSpeakingOrder,
+      round: state.round,
+      winner: state.winner,
+      results: state.results,
+      revealCardId: state.revealCardId,
+      currentPickerIndex: state.currentPickerIndex,
+      lastOusted: state.lastOusted,
+      mrwhiteToGuess: state.mrwhiteToGuess,
+      category: state.category,
+    },
+  });
+}
+
+/**
+ * Returns true if this client is a guest in an online game (not the host).
+ * Guests must send actions to the host rather than mutating state locally.
+ */
+function isOnlineGuest(state: GameState): boolean {
+  if (state.mode !== 'online') return false;
+  return !_isHost;
+}
+
+// Lazily set by onlineStore after host/guest status is determined.
+let _isHost = false;
+export function setOnlineIsHost(v: boolean) { _isHost = v; }
+
+// ─── Store ────────────────────────────────────────────────────────────────────
+
 export const useGameStore = create<GameState>((set, get) => ({
   ...initial,
 
@@ -156,7 +237,12 @@ export const useGameStore = create<GameState>((set, get) => ({
   },
 
   pickCard: (cardId) => {
-    const { cards, players, currentPickerIndex } = get();
+    const state = get();
+    if (isOnlineGuest(state)) {
+      sendToHost({ type: 'ACTION', payload: { type: 'PICK_CARD', cardId } });
+      return;
+    }
+    const { cards, players, currentPickerIndex } = state;
     const player = players[currentPickerIndex];
     if (!player) return;
     const card = cards.find((c) => c.id === cardId);
@@ -169,10 +255,16 @@ export const useGameStore = create<GameState>((set, get) => ({
       revealCardId: cardId,
       phase: 'reveal',
     });
+    broadcastStateIfOnline({ ...state, cards: updatedCards, revealCardId: cardId, phase: 'reveal' });
   },
 
   closeReveal: () => {
-    const { cards, players, currentPickerIndex } = get();
+    const state = get();
+    if (isOnlineGuest(state)) {
+      sendToHost({ type: 'ACTION', payload: { type: 'CLOSE_REVEAL' } });
+      return;
+    }
+    const { cards, players, currentPickerIndex } = state;
     const allPicked = cards.every((c) => c.pickedByPlayerId);
     const nextIdx = currentPickerIndex + 1;
     if (allPicked || nextIdx >= players.length) {
@@ -184,8 +276,10 @@ export const useGameStore = create<GameState>((set, get) => ({
         revealCardId: null,
         phase: 'describe',
       });
+      broadcastStateIfOnline({ ...state, players: finalized, speakingOrder: buildSpeakingOrder(finalized), revealCardId: null, phase: 'describe' });
     } else {
       set({ currentPickerIndex: nextIdx, revealCardId: null, phase: 'pick' });
+      broadcastStateIfOnline({ ...state, currentPickerIndex: nextIdx, revealCardId: null, phase: 'pick' });
     }
   },
 
@@ -200,61 +294,93 @@ export const useGameStore = create<GameState>((set, get) => ({
     });
   },
 
-  startVote: () => set({ phase: 'vote' }),
+  startVote: () => {
+    const state = get();
+    if (isOnlineGuest(state)) {
+      sendToHost({ type: 'ACTION', payload: { type: 'START_VOTE' } });
+      return;
+    }
+    set({ phase: 'vote' });
+    broadcastStateIfOnline({ ...state, phase: 'vote' });
+  },
 
   eliminate: (playerId) => {
-    const { players } = get();
+    const state = get();
+    if (isOnlineGuest(state)) {
+      sendToHost({ type: 'ACTION', payload: { type: 'VOTE', targetId: playerId } });
+      return;
+    }
+    const { players } = state;
     const target = players.find((p) => p.id === playerId);
     if (!target || !target.alive) return;
     const updated = players.map((p) =>
       p.id === playerId ? { ...p, alive: false } : p,
     );
-    set({
+    const newState = {
       players: updated,
       lastOusted: { ...target, alive: false },
-      phase: 'eliminationreveal',
-    });
+      phase: 'eliminationreveal' as Phase,
+    };
+    set(newState);
+    broadcastStateIfOnline({ ...state, ...newState });
   },
 
   continueAfterElimination: () => {
-    const { players, lastOusted } = get();
+    const state = get();
+    if (isOnlineGuest(state)) {
+      sendToHost({ type: 'ACTION', payload: { type: 'CONTINUE_AFTER_ELIMINATION' } });
+      return;
+    }
+    const { players, lastOusted } = state;
     if (!lastOusted) {
       set({ phase: 'describe' });
+      broadcastStateIfOnline({ ...state, phase: 'describe' });
       return;
     }
 
     if (lastOusted.role === 'mrwhite') {
-      set({
+      const newState = {
         mrwhiteToGuess: lastOusted,
-        lastOusted: null,
-        phase: 'mrwhiteguess',
-      });
+        lastOusted: null as null,
+        phase: 'mrwhiteguess' as Phase,
+      };
+      set(newState);
+      broadcastStateIfOnline({ ...state, ...newState });
       return;
     }
 
     const winner = checkWinner(players);
     if (winner) {
       const results = computeResults(players, winner);
-      set({
+      const newState = {
         winner,
         results,
-        mrwhiteToGuess: null,
-        lastOusted: null,
-        phase: 'result',
-      });
+        mrwhiteToGuess: null as null,
+        lastOusted: null as null,
+        phase: 'result' as Phase,
+      };
+      set(newState);
+      broadcastStateIfOnline({ ...state, ...newState });
       maybeRecord(results);
     } else {
-      set({
-        round: get().round + 1,
+      const newState = {
+        round: state.round + 1,
         speakingOrder: buildSpeakingOrder(players),
-        lastOusted: null,
-        phase: 'describe',
-      });
+        lastOusted: null as null,
+        phase: 'describe' as Phase,
+      };
+      set(newState);
+      broadcastStateIfOnline({ ...state, ...newState });
     }
   },
 
   submitMrWhiteGuess: (guessCorrect) => {
-    const { players } = get();
+    const state = get();
+    if (isOnlineGuest(state)) {
+      sendToHost({ type: 'ACTION', payload: { type: 'MR_WHITE_GUESS', guessCorrect } });
+      return;
+    }
+    const { players } = state;
     if (guessCorrect) {
       get().endGameAs('mrwhite');
       return;
@@ -263,29 +389,40 @@ export const useGameStore = create<GameState>((set, get) => ({
     if (winner) {
       get().endGameAs(winner);
     } else {
-      set({
-        round: get().round + 1,
-        mrwhiteToGuess: null,
+      const newState = {
+        round: state.round + 1,
+        mrwhiteToGuess: null as null,
         speakingOrder: buildSpeakingOrder(players),
-        phase: 'describe',
-      });
+        phase: 'describe' as Phase,
+      };
+      set(newState);
+      broadcastStateIfOnline({ ...state, ...newState });
     }
   },
 
   endGameAs: (winner) => {
-    const { players } = get();
+    const state = get();
+    const { players } = state;
     const results = computeResults(players, winner);
-    set({ winner, results, mrwhiteToGuess: null, phase: 'result' });
+    const newState = { winner, results, mrwhiteToGuess: null as null, phase: 'result' as Phase };
+    set(newState);
+    broadcastStateIfOnline({ ...state, ...newState });
     maybeRecord(results);
   },
 
   playAgainSamePlayers: () => {
-    const { players, pendingSetup } = get();
+    const state = get();
+    const { players, pendingSetup } = state;
     if (!pendingSetup) {
       set({ phase: 'home' });
       return;
     }
-    set((state) => dealNewRound(state, players, pendingSetup));
+    set((s) => dealNewRound(s, players, pendingSetup));
+    // Broadcast the new round state if online (host only)
+    if (state.mode === 'online') {
+      const nextState = get();
+      broadcastStateIfOnline(nextState);
+    }
   },
 
   resetToHome: () => set({ ...initial }),
