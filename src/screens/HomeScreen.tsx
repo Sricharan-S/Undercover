@@ -136,6 +136,7 @@ export function HomeScreen() {
             ? `Tracked games will count toward ${selectedGroup.name}.`
             : 'Quick = type names, no scoring. Tracked = pick a group first, scores saved.'}
         </p>
+        <p className="pt-1 text-center text-[10px] text-ink-600">v{__APP_VERSION__}</p>
       </div>
     </div>
   );
